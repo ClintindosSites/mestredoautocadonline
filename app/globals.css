@@ -20,7 +20,171 @@
 }
 
 body {
-  background: var(--background);
+  background: url("/images/bg-autocad.webp");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+.btn-primary {
+  background: linear-gradient(135deg, #c2325d, rgb(255, 15, 87));
+  color: #fff;
+  box-shadow: 0 8px 24px rgba(214, 48, 49, 0.35);
+  display: inline-block;
+  padding: 18px 48px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.hero-content {
+  flex: 1;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero-img {
+  flex: 1;
+}
+
+.hero-stats {
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+.hero-stat {
+  text-align: center;
+}
+.hero-stat .num {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #fca5a5;
+}
+.hero-stat .label {
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+/* ===== TRUST BAR ===== */
+.trust-bar {
+  margin-top: 60px;
+  background: #fff;
+  padding: 28px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+.trust-bar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.trust-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #475569;
+
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.trust-item .icon {
+  width: 20px;
+  height: 20px;
+  background: #22c55e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0.7rem;
+  flex-shrink: 0;
+}
+
+.intro-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.intro-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.estrutura {
+  background-color: #ffffff;
+}
+.estrutura .container {
+  flex-direction: column;
+}
+.estrutura .btn-primary {
+  margin-bottom: 4rem;
+}
+.know-items {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.know-item {
+  background-image: url("/images/bg-autocad.webp");
+  background-size: cover;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border-radius: 12px;
+}
+.certificado .container {
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .trust-bar .container {
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .trust-item {
+    margin-left: 20%;
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+  .certificado-row {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  }
 }
