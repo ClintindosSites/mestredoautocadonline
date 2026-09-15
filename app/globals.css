@@ -106,7 +106,7 @@ body {
 .trust-item .icon {
   width: 20px;
   height: 20px;
-  background: #22c55e;
+  background: #ff0f57;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -176,10 +176,72 @@ body {
 .precta {
   background-color: #e2e8f0;
 }
+.precta .container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  gap: 2rem;
+}
+.precta-box .container {
+  display: flex;
+  text-align: center;
+}
+.comandos-cta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
 
+  margin: 20px auto;
+}
+.comandos-cta .trust-item {
+  gap: 1rem;
+}
+.estatisticas-cta {
+  background-color: #171717;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  border-radius: 20px;
+}
+.info-stats {
+  background-color: #475569;
+  padding: 20px;
+  border-radius: 20px;
+
+  width: 100%;
+}
+@media screen and (max-width: 500px) {
+  .know-items {
+    flex-wrap: wrap;
+  }
+
+  .estatisticas-cta {
+    display: flex;
+    flex-direction: column;
+  }
+  .precta-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+  }
+  .comandos-cta {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .comandos-cta .trust-item {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 768px) {
   .container {
-    padding: 20px;
+    padding: 10px;
     flex-direction: column;
     text-align: center;
   }
@@ -188,7 +250,6 @@ body {
     font-weight: 700;
   }
   .trust-item {
-    margin-left: 20%;
     font-weight: 700;
     font-size: 1.1rem;
   }
@@ -202,6 +263,6 @@ body {
 }
 @media screen and (max-width: 1200px) {
   .container {
-    padding: 40px;
+    padding: 20px;
   }
 }
