@@ -164,6 +164,18 @@ body {
 .certificado .container {
   flex-direction: column;
 }
+.certificado-row {
+  display: flex;
+  gap: 1.3rem;
+}
+.certificado-row .text {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.precta {
+  background-color: #e2e8f0;
+}
 
 @media screen and (max-width: 768px) {
   .container {
@@ -186,5 +198,10 @@ body {
     justify-content: center;
     align-items: center;
     margin: 20px auto;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 40px;
   }
 }

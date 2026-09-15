@@ -10,10 +10,11 @@ export default function Certificado() {
               Seja um Mestre do AutoCAD com Certificado Reconhecido{" "}
             </h2>
             <p className="text-lg">
-              Certificado incluso, emitido de forma online em PDF. Válido em
-              todo território nacional na comprovação de atividades de
-              capacitação profissional, aperfeiçoamento e atividades
-              complementares.(Lei 9394/96, Decreto 5154, Deliberação CEE 14/97)
+              <strong>Certificado incluso,</strong> emitido de forma online em
+              PDF. <strong>Válido em todo território nacional</strong> na
+              comprovação de atividades de capacitação profissional,
+              aperfeiçoamento e atividades complementares.(Lei 9394/96, Decreto
+              5154, Deliberação CEE 14/97)
             </p>
           </div>
           <Image
@@ -24,15 +25,21 @@ export default function Certificado() {
           />
         </div>
         <div className="certificado-row flex">
+          <Image
+            src={"/images/estudantes-autocad.webp"}
+            alt="Para quem serve o curso de autocad? estudantes de engenharia e arquitetura e demais que queiram ganhar dinheiro com desenho técnico."
+            width={400}
+            height={400}
+          />
           <div className="text">
             <h2 className="text-[#ff0f57] font-bold text-4xl">
               PARA QUEM SERVE O CURSO
             </h2>
             <p className="text-lg">
-              O Curso AutoCAD Expert foi criado para quem sente dificuldade em
-              desenvolver projetos técnicos, perde tempo tentando aprender
-              sozinho por tutoriais soltos ou não consegue apresentar desenhos
-              de forma profissional.
+              O <strong>Curso AutoCAD Online do básico ao avançado</strong> foi
+              criado para quem sente dificuldade em desenvolver projetos
+              técnicos, perde tempo tentando aprender sozinho por tutoriais
+              soltos ou não consegue apresentar desenhos de forma profissional.
             </p>
             <p>
               Ele é indicado para qualquer pessoa que queira aprender a usar o
@@ -43,15 +50,9 @@ export default function Certificado() {
               Mesmo que você nunca tenha aberto o programa, o curso começa do
               zero e evolui passo a passo até recursos avançados. Tudo em aulas
               claras e diretas, que você pode assistir no computador, notebook,
-              tablet ou celular — online ou offline.
+              tablet ou celular — <strong>online ou offline.</strong>
             </p>
           </div>
-          <Image
-            src={"/images/estudantes-autocad.webp"}
-            alt="Para quem serve o curso de autocad? estudantes de engenharia e arquitetura e demais que queiram ganhar dinheiro com desenho técnico."
-            width={400}
-            height={400}
-          />
         </div>
       </div>
     </section>
