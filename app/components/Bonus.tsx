@@ -172,7 +172,7 @@ export default function Bonus() {
               className="btn-primary"
               id="checkout-bonus-btn"
             >
-              Quero adquirir o curso de AutoCAD agora
+              Compre agora e torne-se um Mestre do AutoCAD
             </Link>
             <Image
               src={"/images/metodos-pagamento.webp"}
