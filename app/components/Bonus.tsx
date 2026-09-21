@@ -74,6 +74,7 @@ export default function Bonus() {
               </div>
             </div>
           </div>
+
           <Link
             href={"https://go.hotmart.com/H101021157N?ap=4b22"}
             className="btn-primary"
@@ -81,6 +82,136 @@ export default function Bonus() {
           >
             Clique e garanta o conteúdo bônus
           </Link>
+        </div>
+      </div>
+      <div className="bonus-bonus bg-[#ff0f57]">
+        <div className="container">
+          <div className="text">
+            <h2 className="text-4xl font-bold uppercase">E não é só isso...</h2>
+            <p className="text-2xl">
+              Além dos projetos prontos, acesso vitalício, suporte e
+              certificado, o curso oferece ainda mais vantagens para
+              potencializar sua experiência de aprendizado, confira abaixo:
+            </p>
+          </div>
+          <div className="bonus-imgs flex gap-10">
+            <div className="bg-[#242424] flex flex-col items-center text-center w-fit p-10 rounded-2xl">
+              <Image
+                src={"/images/apostila-pdf-autocad.webp"}
+                alt="Material de Apoio Completo em PDF do curso de AutoCAD"
+                width={300}
+                height={300}
+              />
+              <h3 className="text-2xl font-bold mb-5">
+                APOSTILA DO AUTOCAD EM PDF
+              </h3>
+              <p>
+                Material de Apoio Completo em PDF com diversas dicas, atalhos,
+                comandos, figuras e exercícios práticos que realizamos durante
+                todas as aulas.
+              </p>
+            </div>
+            <div className="bg-[#242424] flex flex-col items-center text-center w-fit p-10 rounded-2xl">
+              <Image
+                src={"/images/comunidade-alunos-autocad.webp"}
+                alt="Material de Apoio Completo em PDF do curso de AutoCAD"
+                width={200}
+                height={200}
+              />
+              <h3 className="text-2xl font-bold my-5">COMUNIDADE DO AUTOCAD</h3>
+              <p>
+                Todos os nossos alunos tem acesso a uma Comunidade Exclusiva que
+                conta com diversos alunos e profissionais que estão vivenciando
+                a mesma experiência, você não estará sozinho nessa jornada.
+              </p>
+            </div>
+            <div className="bg-[#242424] flex flex-col items-center text-center w-fit p-10 rounded-2xl">
+              <Image
+                src={"/images/carteirinha-estudante-autocad.webp"}
+                alt="Material de Apoio Completo em PDF do curso de AutoCAD"
+                width={300}
+                height={300}
+              />
+              <h3 className="text-2xl font-bold">CARTEIRINHA DE ESTUDANTE</h3>
+              <p>
+                Alunos Expert Cursos podem solicitar a sua Carteira de
+                Estudante, um documento oficial que garante meia-entrada em
+                cinemas, shows e nos mais diversos eventos culturais e
+                esportivos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bonus-checkout bg-[#f5f5f5]" id="bonus-checkout">
+        <div className="container">
+          <div className="price flex flex-col items-center justify-center">
+            <p className="text-2xl text-[#1d1d1d]">
+              Tudo isso de{" "}
+              <span className="line-through font-bold">R$497,00</span>
+            </p>
+            <div className="flex gap-2 text-[#1d1d1d] items-center">
+              <p className="text-1xl font-bold text-2xl">
+                Por <br /> 12x
+              </p>
+              <p className="text-8xl font-bold">R$20,37</p>
+            </div>
+            <p className="text-[#1d1d1d] text-2xl mb-5">
+              ou apenas <strong> R$197</strong> à vista
+            </p>
+            <Link
+              href={"https://go.hotmart.com/H101021157N?ap=4b22"}
+              className="btn-primary"
+              id="checkout-bonus-btn"
+            >
+              Quero adquirir o curso de AutoCAD agora
+            </Link>
+            <Image
+              src={"/images/metodos-pagamento.webp"}
+              width={300}
+              height={300}
+              alt="Metodos de pagamento do curso de AutoCAD"
+              className="my-5"
+            />
+          </div>
+          <div className="bonus-checkout-items flex gap-10 items-center justify-center text-center">
+            <div className="bg-[#ff0f57] p-10 rounded-2xl h-50 items-center flex flex-col">
+              <Image
+                src={"/images/certificado_layer.png"}
+                width={70}
+                height={70}
+                alt="cetificado de curso de AutoCAD"
+              />
+              <p className="text-2xl font-bold">Curso com Certificado</p>
+            </div>
+            <div className="bg-[#ff0f57] p-10 rounded-2xl h-50 flex flex-col items-center">
+              <Image
+                src={"/images/statics_layer.png"}
+                width={70}
+                height={70}
+                alt="cetificado de curso de AutoCAD"
+              />
+              <p className="text-2xl font-bold">Do Básico ao Avançado</p>
+            </div>
+            <div className="bg-[#ff0f57] p-10 rounded-2xl h-50 flex flex-col items-center">
+              <Image
+                src={"/images/acesso_layer.png"}
+                width={70}
+                height={70}
+                alt="cetificado de curso de AutoCAD"
+              />
+              <p className="text-2xl font-bold">Acesso Vitalício</p>
+            </div>
+            <div className="bg-[#ff0f57] p-10 rounded-2xl h-50 flex flex-col items-center">
+              <Image
+                src={"/images/suporte_layer.png"}
+                width={70}
+                height={70}
+                alt="cetificado de curso de AutoCAD"
+              />
+              <p className="text-2xl font-bold">Suporte Exclusivo</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
