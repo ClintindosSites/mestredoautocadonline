@@ -127,8 +127,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
   flex-direction: column;
+}
+
+.intro-img img {
+  width: min(400px, 90vw);
+  height: auto;
+  display: block;
 }
 .estrutura {
   background-color: #ffffff;
@@ -214,6 +219,38 @@ body {
 
   width: 100%;
 }
+.bonus .container {
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+.bonus .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bonus-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.bonus .trust-item {
+  color: #fff;
+  text-align: left;
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+.bonus-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 @media screen and (max-width: 500px) {
   .know-items {
     flex-wrap: wrap;
@@ -237,6 +274,23 @@ body {
   }
   .comandos-cta .trust-item {
     width: 100%;
+  }
+  .bonus .container {
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .bonus-imgs {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .bonus-box {
+    gap: 2rem;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 768px) {

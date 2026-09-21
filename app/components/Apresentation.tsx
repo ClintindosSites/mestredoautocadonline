@@ -58,8 +58,9 @@ const Apresentation = () => {
           <Image
             src={"/images/mestreautocad3d.webp"}
             alt="Avatar do Mestre do AutoCAD, curso de AutoCAD online"
-            width={300}
-            height={300}
+            width={400}
+            height={400}
+            className="mestre"
           />
           <Link
             href={"https://go.hotmart.com/H101021157N?ap=4b22"}

@@ -3,6 +3,7 @@ import Apresentation from "./components/Apresentation";
 import Estrutura from "./components/Estrutura";
 import Certificado from "./components/Certificado";
 import PreCTA from "./components/PreCTA";
+import Bonus from "./components/Bonus";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Estrutura />
       <Certificado />
       <PreCTA />
+      <Bonus />
     </>
   );
 }
