@@ -161,6 +161,12 @@ export default function Bonus() {
             <p className="text-[#1d1d1d] text-2xl mb-5">
               ou apenas <strong> R$197</strong> à vista
             </p>
+            <Image
+              src={"/images/checkout-bonus-mestre-do-autocad.webp"}
+              width={700}
+              height={700}
+              alt="Clique e adquira agora o bonus do mestre do autocad"
+            />
             <Link
               href={"https://go.hotmart.com/H101021157N?ap=4b22"}
               className="btn-primary"
