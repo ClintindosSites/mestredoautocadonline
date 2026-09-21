@@ -150,11 +150,13 @@ export default function Bonus() {
               Tudo isso de{" "}
               <span className="line-through font-bold">R$497,00</span>
             </p>
-            <div className="flex gap-2 text-[#1d1d1d] items-center">
+            <div className="flex gap-2 text-[#1d1d1d] items-center parcels">
               <p className="text-1xl font-bold text-2xl">
                 Por <br /> 12x
               </p>
-              <p className="text-8xl font-bold">R$20,37</p>
+              <p className="text-7xl  font-bold " id="price-parcel">
+                R$20,37
+              </p>
             </div>
             <p className="text-[#1d1d1d] text-2xl mb-5">
               ou apenas <strong> R$197</strong> à vista

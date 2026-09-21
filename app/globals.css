@@ -292,6 +292,17 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .bonus-checkout-items {
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .checkout-bonus-btn {
+    width: 100%;
+  }
+  .price {
+    width: 100%;
+    padding: 20px;
+  }
 }
 @media screen and (max-width: 768px) {
   .container {
