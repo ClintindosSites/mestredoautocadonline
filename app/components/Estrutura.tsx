@@ -18,7 +18,7 @@ export default function Estrutura() {
           <div className="col">
             <div className="know-item">
               <h3 className="text-2xl font-bold">
-                <span className="text-[#ff0f57]">MÓDULO 1</span> – Introdução e
+                <span className="text-[#ff0f57]">MÓDULO 1</span> - Introdução e
                 Apresentação
               </h3>
               <p>
@@ -39,7 +39,7 @@ export default function Estrutura() {
             </div>
             <div className="know-item">
               <h3 className="text-2xl font-bold">
-                <span className="text-[#ff0f57]">MÓDULO 3</span> – Textos,
+                <span className="text-[#ff0f57]">MÓDULO 3</span> - Textos,
                 Layers e Cotas
               </h3>
               <p>
@@ -49,7 +49,7 @@ export default function Estrutura() {
             </div>
             <div className="know-item">
               <h3 className="text-2xl font-bold">
-                <span className="text-[#ff0f57]">MÓDULO 4</span> – Praticando no
+                <span className="text-[#ff0f57]">MÓDULO 4</span> - Praticando no
                 AutoCAD
               </h3>
               <p>
@@ -60,7 +60,7 @@ export default function Estrutura() {
             </div>
             <div className="know-item">
               <h3 className="text-2xl font-bold">
-                <span className="text-[#ff0f57]">MÓDULO 5</span> – Planta Baixa
+                <span className="text-[#ff0f57]">MÓDULO 5</span> - Planta Baixa
               </h3>
               <p>
                 Execução de planta baixa e planta de corte. Criação de paredes,
@@ -73,7 +73,7 @@ export default function Estrutura() {
           <div className="col">
             <div className="know-item">
               <h3 className="text-2xl font-bold">
-                <span className="text-[#ff0f57]">MÓDULO 6</span>– Elétrica e
+                <span className="text-[#ff0f57]">MÓDULO 6</span> - Elétrica e
                 Hidráulica
               </h3>
               <p>
@@ -85,7 +85,7 @@ export default function Estrutura() {
 
             <div className="know-item">
               <h3 className="text-2xl font-bold">
-                <span className="text-[#ff0f57]">MÓDULO 7</span> – Escala e
+                <span className="text-[#ff0f57]">MÓDULO 7</span> - Escala e
                 Impressão
               </h3>
               <p>
@@ -96,7 +96,7 @@ export default function Estrutura() {
             </div>
             <div className="know-item">
               <h3 className="text-2xl font-bold">
-                <span className="text-[#ff0f57]">MÓDULO 8</span>– Modelagem 3D
+                <span className="text-[#ff0f57]">MÓDULO 8</span> - Modelagem 3D
               </h3>
               <p>
                 Principais comandos do Autocad 3D, elevação de alvenarias e
@@ -106,7 +106,7 @@ export default function Estrutura() {
             </div>
             <div className="know-item">
               <h3 className="text-2xl font-bold">
-                <span className="text-[#ff0f57]">MÓDULO 9</span> – Criação de
+                <span className="text-[#ff0f57]">MÓDULO 9</span> - Criação de
                 Peças Mecânicas
               </h3>
               <p>
@@ -116,7 +116,7 @@ export default function Estrutura() {
             </div>
             <div className="know-item">
               <h3 className="text-2xl font-bold">
-                <span className="text-[#ff0f57]">MÓDULO 10</span>– Bônus e
+                <span className="text-[#ff0f57]">MÓDULO 10</span> - Bônus e
                 Projetos
               </h3>
               <p>

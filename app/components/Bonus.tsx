@@ -94,7 +94,7 @@ export default function Bonus() {
               potencializar sua experiência de aprendizado, confira abaixo:
             </p>
           </div>
-          <div className="bonus-imgs flex gap-10">
+          <div className="bonus-imgs flex flex-wrap gap-10">
             <div className="bg-[#242424] flex flex-col items-center text-center w-fit p-10 rounded-2xl">
               <Image
                 src={"/images/apostila-pdf-autocad.webp"}
@@ -182,42 +182,42 @@ export default function Bonus() {
               className="my-5"
             />
           </div>
-          <div className="bonus-checkout-items flex gap-10 items-center justify-center text-center">
-            <div className="bg-[#ff0f57] p-10 rounded-2xl h-50 items-center flex flex-col">
+          <div className="bonus-checkout-items flex gap-10 items-center justify-center text-center flex-wrap">
+            <div className="bg-[#ff0f57] p-10 rounded-2xl h-50 w-60 items-center flex flex-col">
               <Image
                 src={"/images/certificado_layer.png"}
                 width={70}
                 height={70}
                 alt="cetificado de curso de AutoCAD"
               />
-              <p className="text-2xl font-bold">Curso com Certificado</p>
+              <p className="text-2xl">Curso com Certificado</p>
             </div>
-            <div className="bg-[#ff0f57] p-10 rounded-2xl h-50 flex flex-col items-center">
+            <div className="bg-[#ff0f57] p-10 rounded-2xl h-50 w-60 flex flex-col items-center">
               <Image
                 src={"/images/statics_layer.png"}
                 width={70}
                 height={70}
                 alt="cetificado de curso de AutoCAD"
               />
-              <p className="text-2xl font-bold">Do Básico ao Avançado</p>
+              <p className="text-2xl ">Do Básico ao Avançado</p>
             </div>
-            <div className="bg-[#ff0f57] p-10 rounded-2xl h-50 flex flex-col items-center">
+            <div className="bg-[#ff0f57] p-10 rounded-2xl h-50 w-60 flex flex-col items-center">
               <Image
                 src={"/images/acesso_layer.png"}
                 width={70}
                 height={70}
                 alt="cetificado de curso de AutoCAD"
               />
-              <p className="text-2xl font-bold">Acesso Vitalício</p>
+              <p className="text-2xl">Acesso Vitalício</p>
             </div>
-            <div className="bg-[#ff0f57] p-10 rounded-2xl h-50 flex flex-col items-center">
+            <div className="bg-[#ff0f57] p-10 rounded-2xl h-50 w-60 flex flex-col items-center">
               <Image
                 src={"/images/suporte_layer.png"}
                 width={70}
                 height={70}
                 alt="cetificado de curso de AutoCAD"
               />
-              <p className="text-2xl font-bold">Suporte Exclusivo</p>
+              <p className="text-2xl">Suporte Exclusivo</p>
             </div>
           </div>
         </div>
