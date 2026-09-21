@@ -4,7 +4,7 @@ export default function Certificado() {
   return (
     <section className="certificado">
       <div className="container py-40">
-        <div className="certificado-row flex">
+        <div className="certificado-row flex items-center">
           <div className="text">
             <h2 className="text-[#ff0f57] font-bold text-4xl">
               Seja um Mestre do AutoCAD com Certificado Reconhecido{" "}
@@ -20,16 +20,18 @@ export default function Certificado() {
           <Image
             src={"/images/certificado-autocad.webp"}
             alt="Certificado do Curso de AutoCAD online"
-            width={400}
-            height={400}
+            width={1536}
+            height={1024}
+            className="w-115 h-full"
           />
         </div>
-        <div className="certificado-row flex">
+        <div className="certificado-row flex items-center">
           <Image
             src={"/images/estudantes-autocad.webp"}
             alt="Para quem serve o curso de autocad? estudantes de engenharia e arquitetura e demais que queiram ganhar dinheiro com desenho técnico."
-            width={400}
-            height={400}
+            width={2456}
+            height={1689}
+            className="w-115 h-full"
           />
           <div className="text">
             <h2 className="text-[#ff0f57] font-bold text-4xl">

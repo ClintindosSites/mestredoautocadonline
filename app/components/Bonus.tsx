@@ -8,8 +8,9 @@ export default function Bonus() {
         <div className="text">
           <Image
             src={"/images/mestre-do-autocad-bonus.webp"}
-            height={400}
-            width={400}
+            height={1183}
+            width={1330}
+            className="w-120 h-full"
             alt="Mestre do AutoCAD oferece 5 aulas bonus"
           />
           <h2 className="text-3xl font-extrabold">
@@ -28,8 +29,9 @@ export default function Bonus() {
             <div className="bonus-infos">
               <Image
                 src={"/images/projeto-autocad-1.webp"}
-                width={300}
-                height={300}
+                width={1920}
+                height={1080}
+                className="w-120 h-full"
                 alt="Projeto de AutoCAD Online"
               />
               <div className="trust-item">
@@ -44,8 +46,9 @@ export default function Bonus() {
             <div className="bonus-infos">
               <Image
                 src={"/images/projeto-autocad-2.webp"}
-                width={300}
-                height={300}
+                width={1920}
+                height={1080}
+                className="w-120 h-full"
                 alt="Projeto de AutoCAD Online"
               />
               <div className="trust-item">
@@ -60,8 +63,9 @@ export default function Bonus() {
             <div className="bonus-infos">
               <Image
                 src={"/images/projeto-autocad-3.webp"}
-                width={300}
-                height={300}
+                width={1920}
+                height={1080}
+                className="w-120 h-full"
                 alt="Projeto de AutoCAD Online"
               />
               <div className="trust-item">
@@ -99,8 +103,9 @@ export default function Bonus() {
               <Image
                 src={"/images/apostila-pdf-autocad.webp"}
                 alt="Material de Apoio Completo em PDF do curso de AutoCAD"
-                width={300}
-                height={300}
+                width={1920}
+                height={1278}
+                className="w-75 h-full"
               />
               <h3 className="text-2xl font-bold mb-5">
                 APOSTILA DO AUTOCAD EM PDF
@@ -115,8 +120,9 @@ export default function Bonus() {
               <Image
                 src={"/images/comunidade-alunos-autocad.webp"}
                 alt="Material de Apoio Completo em PDF do curso de AutoCAD"
-                width={200}
-                height={200}
+                width={420}
+                height={320}
+                className="w-75 h-full"
               />
               <h3 className="text-2xl font-bold my-5">COMUNIDADE DO AUTOCAD</h3>
               <p>
@@ -129,8 +135,9 @@ export default function Bonus() {
               <Image
                 src={"/images/carteirinha-estudante-autocad.webp"}
                 alt="Material de Apoio Completo em PDF do curso de AutoCAD"
-                width={300}
-                height={300}
+                width={1260}
+                height={960}
+                className="w-75 h-full"
               />
               <h3 className="text-2xl font-bold">CARTEIRINHA DE ESTUDANTE</h3>
               <p>
@@ -163,8 +170,9 @@ export default function Bonus() {
             </p>
             <Image
               src={"/images/checkout-bonus-mestre-do-autocad.webp"}
-              width={700}
-              height={700}
+              width={1587}
+              height={991}
+              className="w-auto h-full"
               alt="Clique e adquira agora o bonus do mestre do autocad"
             />
             <Link
@@ -176,10 +184,10 @@ export default function Bonus() {
             </Link>
             <Image
               src={"/images/metodos-pagamento.webp"}
-              width={300}
-              height={300}
+              width={1307}
+              height={195}
               alt="Metodos de pagamento do curso de AutoCAD"
-              className="my-5"
+              className="my-5 w-auto h-full"
             />
           </div>
           <div className="bonus-checkout-items flex gap-10 items-center justify-center text-center flex-wrap">

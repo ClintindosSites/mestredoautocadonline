@@ -51,8 +51,9 @@ export default function Hero() {
           <Image
             src={"/images/autocad-total.webp"}
             alt="Imagem de planta baixa do Curso de AutoCAD Online"
-            width={500}
-            height={200}
+            width={3253}
+            height={3293}
+            className="w-150 h-full"
           />
         </div>
       </div>

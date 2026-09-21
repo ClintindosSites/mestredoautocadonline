@@ -22,9 +22,9 @@ const Depoimentos = () => {
             <Image
               src={"/images/star.webp"}
               alt="Curso de AutoCAD avaliação 5 estrelas"
-              width={150}
-              height={150}
-              className="-mt-5"
+              width={1198}
+              height={190}
+              className="w-37.5 h-auto"
             />
             <p>
               &quot; Sou estudante de Engenharia Civil e quero dizer para vocês
@@ -48,9 +48,9 @@ const Depoimentos = () => {
             <Image
               src={"/images/star.webp"}
               alt="Curso de AutoCAD avaliação 5 estrelas"
-              width={150}
-              height={150}
-              className="-mt-5"
+              width={1198}
+              height={190}
+              className="w-37.5 h-auto"
             />
             <p>
               &quot;Atualmente já tenho o diploma de AutoCAD, foi umas das
@@ -74,9 +74,9 @@ const Depoimentos = () => {
             <Image
               src={"/images/star.webp"}
               alt="Curso de AutoCAD avaliação 5 estrelas"
-              width={150}
-              height={150}
-              className="-mt-5"
+              width={1198}
+              height={190}
+              className="w-37.5 h-auto"
             />
             <p>
               &quot;Realmente o Curso de Autocad 2D e 3D é sensacional, superou
@@ -99,9 +99,9 @@ const Depoimentos = () => {
             <Image
               src={"/images/star.webp"}
               alt="Curso de AutoCAD avaliação 5 estrelas"
-              width={150}
-              height={150}
-              className="-mt-5"
+              width={1198}
+              height={190}
+              className="w-37.5 h-auto"
             />
             <p>
               &quot;Já assisti todas as aulas e gostei bastante, o professor é
@@ -115,88 +115,99 @@ const Depoimentos = () => {
           <div className="depoimento-img">
             <Image
               src={"/images/depoimentos/depoimento-autocad-1.webp"}
-              width={250}
-              height={250}
+              width={709}
+              height={861}
+              className="w-62.5 h-auto"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
           <div className="depoimento-img">
             <Image
               src={"/images/depoimentos/depoimento-autocad-2.webp"}
-              width={250}
-              height={250}
+              width={709}
+              height={861}
+              className="w-62.5 h-auto"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
           <div className="depoimento-img">
             <Image
               src={"/images/depoimentos/depoimento-autocad-3.webp"}
-              width={250}
-              height={250}
+              width={709}
+              height={861}
+              className="w-62.5 h-auto"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
           <div className="depoimento-img">
             <Image
               src={"/images/depoimentos/depoimento-autocad-4.webp"}
-              width={250}
-              height={250}
+              width={709}
+              height={861}
+              className="w-62.5 h-auto"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
           <div className="depoimento-img">
             <Image
               src={"/images/depoimentos/depoimento-autocad-5.webp"}
-              width={250}
-              height={250}
+              width={709}
+              height={861}
+              className="w-62.5 h-auto"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
           <div className="depoimento-img">
             <Image
               src={"/images/depoimentos/depoimento-autocad-6.webp"}
-              width={250}
-              height={250}
+              width={709}
+              height={861}
+              className="w-62.5 h-auto"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
           <div className="depoimento-img">
             <Image
               src={"/images/depoimentos/depoimento-autocad-7.webp"}
-              width={250}
-              height={250}
+              width={709}
+              height={861}
+              className="w-62.5 h-auto"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
           <div className="depoimento-img">
             <Image
               src={"/images/depoimentos/depoimento-autocad-8.webp"}
-              width={250}
-              height={250}
+              width={709}
+              height={861}
+              className="w-62.5 h-auto"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
           <div className="depoimento-img">
             <Image
               src={"/images/depoimentos/depoimento-autocad-9.webp"}
-              width={250}
-              height={250}
+              width={709}
+              height={861}
+              className="w-62.5 h-auto"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
           <div className="depoimento-img">
             <Image
               src={"/images/depoimentos/depoimento-autocad-10.webp"}
-              width={250}
-              height={250}
+              width={709}
+              height={861}
+              className="w-62.5 h-auto"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
           <div className="depoimento-img">
             <Image
               src={"/images/depoimentos/depoimento-autocad-11.webp"}
-              width={250}
-              height={250}
+              width={709}
+              height={861}
+              className="w-62.5 h-auto"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
