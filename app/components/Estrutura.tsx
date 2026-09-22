@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Estrutura() {
   return (
-    <section className="estrutura">
+    <section className="estrutura" id="conteudo">
       <div className="container">
         <div className="text-center items-center py-15">
           <h2 className="text-3xl font-bold text-[#0d0d0d] uppercase">

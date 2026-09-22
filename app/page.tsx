@@ -9,6 +9,7 @@ import Professor from "./components/Professor";
 import Garantia from "./components/Garantia";
 import Checkout from "./components/Checkout";
 import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <Garantia />
       <Checkout />
       <FAQ />
+      <Footer />
     </>
   );
 }

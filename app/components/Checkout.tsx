@@ -5,7 +5,7 @@ export default function CheckoutFinal() {
   return (
     <section className="checkout-final bg-[#f5f5f5] py-20" id="checkout-final">
       <div className="container justify-between gap-15">
-        <div className="price flex flex-col items-center justify-center bg-[#141414] rounded-3xl max-w-200">
+        <div className="price flex flex-col items-center justify-center bg-[#111111] rounded-3xl max-w-200">
           <div className="price-title border-b-4 border-[#ff0f57] w-full h-50 text-center items-center flex justify-center uppercase mb-10">
             <h3 className="text-3xl font-bold">
               Transforme-se em um Mestre do AutoCAD com um investimento no valor

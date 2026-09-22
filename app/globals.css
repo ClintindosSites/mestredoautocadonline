@@ -18,7 +18,9 @@
     --foreground: #ededed;
   }
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: url("/images/bg-autocad.webp");
   background-size: cover;
@@ -427,6 +429,238 @@ body {
   background: #d7436d;
   transform: translateY(-2px);
   box-shadow: 0 12px 30px rgba(194, 50, 93, 0.35);
+}
+.footer {
+  background: #090909;
+  color: #fff;
+  border-top: 1px solid rgba(194, 50, 93, 0.25);
+  padding: 70px 20px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* =========================
+   PARTE PRINCIPAL
+========================= */
+
+.footer-main {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.3fr;
+  gap: 50px;
+  padding-bottom: 55px;
+}
+
+.footer-brand {
+  max-width: 330px;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.footer-logo-main {
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.footer-logo-sub {
+  color: #c2325d;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  margin-top: 5px;
+}
+
+.footer-brand p {
+  color: #999;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+/* =========================
+   COLUNAS
+========================= */
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column h3 {
+  font-size: 15px;
+  margin: 0 0 20px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-column a {
+  color: #999;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 12px;
+  transition: 0.3s ease;
+}
+
+.footer-column a:hover {
+  color: #c2325d;
+  transform: translateX(3px);
+}
+
+.footer-security {
+  color: #999;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 0 0 12px;
+}
+
+/* =========================
+   CTA
+========================= */
+
+.footer-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+
+  padding: 30px 35px;
+
+  border: 1px solid rgba(194, 50, 93, 0.35);
+  border-radius: 14px;
+
+  background: linear-gradient(
+    135deg,
+    rgba(194, 50, 93, 0.12),
+    rgba(194, 50, 93, 0.025)
+  );
+}
+
+.footer-cta h3 {
+  margin: 0 0 7px;
+  font-size: 21px;
+}
+
+.footer-cta p {
+  margin: 0;
+  color: #999;
+  font-size: 14px;
+}
+
+.footer-button {
+  flex-shrink: 0;
+
+  background: #c2325d;
+  color: #fff;
+
+  text-decoration: none;
+
+  padding: 15px 25px;
+  border-radius: 7px;
+
+  font-size: 13px;
+  font-weight: 800;
+
+  transition: 0.3s ease;
+}
+
+.footer-button:hover {
+  background: #d7436d;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(194, 50, 93, 0.25);
+}
+
+/* =========================
+   PARTE INFERIOR
+========================= */
+
+.footer-bottom {
+  margin-top: 45px;
+  padding: 25px 0;
+
+  border-top: 1px solid #222;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-bottom p {
+  color: #666;
+  font-size: 12px;
+  margin: 0;
+}
+
+.footer-links {
+  display: flex;
+  gap: 25px;
+}
+
+.footer-links a {
+  color: #666;
+  font-size: 12px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #c2325d;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 900px) {
+  .footer-main {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+
+  .footer-brand {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 55px 20px 0;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .footer-cta {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .footer-button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 
 /* MOBILE */

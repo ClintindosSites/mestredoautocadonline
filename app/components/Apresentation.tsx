@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Apresentation = () => {
   return (
-    <section className="intro">
+    <section className="intro" id="curso">
       <div className="container">
         <div className="intro-text gap-2">
           <h2 className="text-3xl">
