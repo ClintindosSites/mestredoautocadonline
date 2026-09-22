@@ -54,6 +54,7 @@ export default function Hero() {
             width={3253}
             height={3293}
             className="w-150 h-full"
+            loading="eager"
           />
         </div>
       </div>

@@ -2,12 +2,12 @@ import Image from "next/image";
 const Depoimentos = () => {
   return (
     <section className="depoimentos" id="depoimentos">
-      <div className="container flex-col">
+      <div className="container flex-col justify-between">
         <h2 className="text-2xl uppercase font-bold text-center my-20 mx-auto">
           Veja depoimentos de alunos que se tornaram Mestres do AutoCAD:
         </h2>
 
-        <div className="depoimentos-videos w-full max-w-5xl mx-auto aspect-video  items-stretch flex flex-wrap justify-center gap-5">
+        <div className="depoimentos-videos w-full max-w-5xl mx-auto aspect-video  items-stretch flex flex-wrap justify-center gap-5 mb-20">
           <div className="video-depoimento flex flex-col gap-4 text-center items-center max-w-60">
             <iframe
               className="w-60 h-50 rounded-2xl"
@@ -118,6 +118,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
@@ -127,6 +128,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
@@ -136,6 +138,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
@@ -145,6 +148,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
@@ -154,6 +158,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
@@ -163,6 +168,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
@@ -172,6 +178,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
@@ -181,6 +188,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
@@ -190,6 +198,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
@@ -199,6 +208,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>
@@ -208,6 +218,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
           </div>

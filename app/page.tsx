@@ -5,6 +5,10 @@ import Certificado from "./components/Certificado";
 import PreCTA from "./components/PreCTA";
 import Bonus from "./components/Bonus";
 import Depoimentos from "./components/Depoimentos";
+import Professor from "./components/Professor";
+import Garantia from "./components/Garantia";
+import Checkout from "./components/Checkout";
+import FAQ from "./components/FAQ";
 
 export default function Home() {
   return (
@@ -17,6 +21,10 @@ export default function Home() {
       <PreCTA />
       <Bonus />
       <Depoimentos />
+      <Professor />
+      <Garantia />
+      <Checkout />
+      <FAQ />
     </>
   );
 }
