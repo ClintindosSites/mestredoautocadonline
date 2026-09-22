@@ -8,46 +8,55 @@ const perguntas = [
     resposta:
       "Você recebe acesso vitalício ao curso. Pode estudar no seu tempo e no seu horário, assistir e reassistir às aulas quantas vezes quiser.",
   },
+
   {
     pergunta: "Como vou receber o curso?",
     resposta:
       "Após realizar a sua inscrição, você receberá o acesso ao curso diretamente em seu e-mail. Basta clicar no botão “Acessar meu produto”, criar sua senha e começar seus estudos.",
   },
+
   {
     pergunta: "O certificado é válido em todo o Brasil?",
     resposta:
       "Nossos cursos profissionalizantes são classificados como cursos livres e possuem certificado de conclusão. Os cursos livres são uma modalidade de ensino permitida pela legislação brasileira. O certificado pode ser utilizado para comprovação de capacitação e, conforme as regras da instituição de ensino, também pode ser aceito para atividades extracurriculares.",
   },
+
   {
     pergunta: "Quem pode fazer esse curso?",
     resposta:
       "Qualquer pessoa que esteja buscando conhecimento e capacitação profissional pode fazer o curso. Não é necessário ter conhecimento prévio de AutoCAD: você começa pelos primeiros passos e evolui gradualmente até conteúdos mais avançados.",
   },
+
   {
     pergunta: "Terei suporte durante o curso?",
     resposta:
       "Sim. Você terá acesso à área de membros do curso e poderá tirar suas dúvidas relacionadas às aulas diretamente com o professor.",
   },
+
   {
     pergunta: "Os cursos possuem legendas?",
     resposta:
       "Sim. As videoaulas contam com legendas disponíveis para facilitar o acompanhamento do conteúdo.",
   },
+
   {
     pergunta: "Emitem nota fiscal?",
     resposta:
       "Sim. Os cursos e produtos contam com emissão de Nota Fiscal. O documento é enviado para o e-mail informado no momento da compra.",
   },
+
   {
     pergunta: "Quais são as formas de pagamento?",
     resposta:
       "Você pode realizar o pagamento utilizando as opções disponibilizadas no checkout, como cartão de crédito, boleto bancário, Pix e PayPal.",
   },
+
   {
     pergunta: "Terei direito a carteirinha de estudante?",
     resposta:
       "Os alunos podem solicitar a carteira estudantil conforme as condições e regras da instituição responsável pela emissão. Consulte as condições disponíveis após sua matrícula.",
   },
+
   {
     pergunta: "Esse site é seguro?",
     resposta:
@@ -56,9 +65,9 @@ const perguntas = [
 ];
 
 export default function FAQ() {
-  const [aberta, setAberta] = useState(null);
+  const [aberta, setAberta] = useState<number | null>(null);
 
-  const toggleFAQ = index => {
+  const toggleFAQ = (index: number) => {
     setAberta(aberta === index ? null : index);
   };
 
