@@ -18,13 +18,15 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   }
 
   return (
-    <main className="max-w-4xl mx-auto px-6 py-20">
+    <main className="max-w-4xl mx-auto px-6 py-20 bg-[#f5f5f5]">
       <article>
         <p className="text-sm uppercase font-bold text-[#ff0f57] mb-4">
           {post.category}
         </p>
 
-        <h1 className="text-4xl md:text-5xl font-bold mb-6">{post.title}</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-[#141414]">
+          {post.title}
+        </h1>
 
         <p className="text-xl text-gray-600 mb-8">{post.description}</p>
 
@@ -32,7 +34,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           Por {post.author} • {post.date}
         </div>
 
-        <div className="prose prose-lg max-w-none">
+        <div className="prose prose-lg max-w-none text-[#141414]">
           <MDXRemote source={post.content} />
         </div>
       </article>
