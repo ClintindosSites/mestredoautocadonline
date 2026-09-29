@@ -61,6 +61,8 @@ const Apresentation = () => {
             width={1024}
             height={1536}
             className="mestre w-150 h-full"
+            fetchPriority="high"
+            loading="eager"
           />
           <Link
             href={"https://go.hotmart.com/H101021157N?ap=4b22"}

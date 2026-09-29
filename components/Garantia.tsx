@@ -24,6 +24,7 @@ export default function Garantia() {
             width={411}
             height={324}
             className="w-150 h-full"
+            fetchPriority="high"
             loading="eager"
             alt="Garantia de 7 dias do curso de AutoCAD"
           />

@@ -38,6 +38,7 @@ export default function CheckoutFinal() {
               height={991}
               className="w-200 h-full"
               loading="eager"
+              fetchPriority="high"
               alt="Clique e adquira agora o bonus do mestre do autocad"
             />
           </div>
@@ -57,6 +58,7 @@ export default function CheckoutFinal() {
               alt="Metodos de pagamento do curso de AutoCAD"
               loading="eager"
               className="w-fit h-full"
+              fetchPriority="high"
             />
           </div>
           <p className="mb-15">

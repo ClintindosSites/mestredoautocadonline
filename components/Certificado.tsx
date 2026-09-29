@@ -23,6 +23,8 @@ export default function Certificado() {
             width={1536}
             height={1024}
             className="w-115 h-full"
+            fetchPriority="high"
+            loading="eager"
           />
         </div>
         <div className="certificado-row flex items-center">
@@ -32,6 +34,8 @@ export default function Certificado() {
             width={2456}
             height={1689}
             className="w-115 h-full"
+            fetchPriority="high"
+            loading="eager"
           />
           <div className="text">
             <h2 className="text-[#ff0f57] font-bold text-4xl">

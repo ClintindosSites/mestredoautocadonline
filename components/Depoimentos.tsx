@@ -25,6 +25,8 @@ const Depoimentos = () => {
               width={1198}
               height={190}
               className="w-37.5 h-auto"
+              fetchPriority="high"
+              loading="eager"
             />
             <p>
               &quot; Sou estudante de Engenharia Civil e quero dizer para vocês
@@ -50,6 +52,8 @@ const Depoimentos = () => {
               alt="Curso de AutoCAD avaliação 5 estrelas"
               width={1198}
               height={190}
+              fetchPriority="high"
+              loading="eager"
               className="w-37.5 h-auto"
             />
             <p>
@@ -77,6 +81,8 @@ const Depoimentos = () => {
               width={1198}
               height={190}
               className="w-37.5 h-auto"
+              fetchPriority="high"
+              loading="eager"
             />
             <p>
               &quot;Realmente o Curso de Autocad 2D e 3D é sensacional, superou
@@ -102,6 +108,8 @@ const Depoimentos = () => {
               width={1198}
               height={190}
               className="w-37.5 h-auto"
+              fetchPriority="high"
+              loading="eager"
             />
             <p>
               &quot;Já assisti todas as aulas e gostei bastante, o professor é
@@ -118,6 +126,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              fetchPriority="high"
               loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
@@ -128,6 +137,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              fetchPriority="high"
               loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
@@ -138,6 +148,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              fetchPriority="high"
               loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
@@ -148,6 +159,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              fetchPriority="high"
               loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
@@ -158,6 +170,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              fetchPriority="high"
               loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
@@ -168,6 +181,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              fetchPriority="high"
               loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
@@ -178,6 +192,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              fetchPriority="high"
               loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
@@ -188,6 +203,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              fetchPriority="high"
               loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
@@ -198,6 +214,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              fetchPriority="high"
               loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
@@ -208,6 +225,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              fetchPriority="high"
               loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />
@@ -218,6 +236,7 @@ const Depoimentos = () => {
               width={709}
               height={861}
               className="w-62.5 h-auto"
+              fetchPriority="high"
               loading="eager"
               alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
             />

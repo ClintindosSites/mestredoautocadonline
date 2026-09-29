@@ -11,6 +11,8 @@ export default function Bonus() {
             height={1183}
             width={1330}
             className="w-120 h-full"
+            fetchPriority="high"
+            loading="eager"
             alt="Mestre do AutoCAD oferece 5 aulas bonus"
           />
           <h2 className="text-3xl font-extrabold">
@@ -32,6 +34,8 @@ export default function Bonus() {
                 width={1920}
                 height={1080}
                 className="w-120 h-full"
+                fetchPriority="high"
+                loading="eager"
                 alt="Projeto de AutoCAD Online"
               />
               <div className="trust-item">
@@ -48,6 +52,8 @@ export default function Bonus() {
                 src={"/images/projeto-autocad-2.webp"}
                 width={1920}
                 height={1080}
+                fetchPriority="high"
+                loading="eager"
                 className="w-120 h-full"
                 alt="Projeto de AutoCAD Online"
               />
@@ -65,6 +71,8 @@ export default function Bonus() {
                 src={"/images/projeto-autocad-3.webp"}
                 width={1920}
                 height={1080}
+                fetchPriority="high"
+                loading="eager"
                 className="w-120 h-full"
                 alt="Projeto de AutoCAD Online"
               />
@@ -105,6 +113,8 @@ export default function Bonus() {
                 alt="Material de Apoio Completo em PDF do curso de AutoCAD"
                 width={1920}
                 height={1278}
+                fetchPriority="high"
+                loading="eager"
                 className="w-75 h-full"
               />
               <h3 className="text-2xl font-bold mb-5">
@@ -122,6 +132,8 @@ export default function Bonus() {
                 alt="Material de Apoio Completo em PDF do curso de AutoCAD"
                 width={420}
                 height={320}
+                fetchPriority="high"
+                loading="eager"
                 className="w-75 h-full"
               />
               <h3 className="text-2xl font-bold my-5">COMUNIDADE DO AUTOCAD</h3>
@@ -137,6 +149,8 @@ export default function Bonus() {
                 alt="Material de Apoio Completo em PDF do curso de AutoCAD"
                 width={1260}
                 height={960}
+                fetchPriority="high"
+                loading="eager"
                 className="w-75 h-full"
               />
               <h3 className="text-2xl font-bold">CARTEIRINHA DE ESTUDANTE</h3>
@@ -173,6 +187,8 @@ export default function Bonus() {
               width={1587}
               height={991}
               className="w-auto h-full"
+              fetchPriority="high"
+              loading="eager"
               alt="Clique e adquira agora o bonus do mestre do autocad"
             />
             <Link
@@ -186,6 +202,8 @@ export default function Bonus() {
               src={"/images/metodos-pagamento.webp"}
               width={1307}
               height={195}
+              fetchPriority="high"
+              loading="eager"
               alt="Metodos de pagamento do curso de AutoCAD"
               className="my-5 w-auto h-full"
             />
@@ -196,6 +214,8 @@ export default function Bonus() {
                 src={"/images/certificado_layer.png"}
                 width={70}
                 height={70}
+                fetchPriority="high"
+                loading="eager"
                 alt="cetificado de curso de AutoCAD"
               />
               <p className="text-2xl">Curso com Certificado</p>
@@ -205,6 +225,8 @@ export default function Bonus() {
                 src={"/images/statics_layer.png"}
                 width={70}
                 height={70}
+                fetchPriority="high"
+                loading="eager"
                 alt="cetificado de curso de AutoCAD"
               />
               <p className="text-2xl ">Do Básico ao Avançado</p>
@@ -214,6 +236,8 @@ export default function Bonus() {
                 src={"/images/acesso_layer.png"}
                 width={70}
                 height={70}
+                fetchPriority="high"
+                loading="eager"
                 alt="cetificado de curso de AutoCAD"
               />
               <p className="text-2xl">Acesso Vitalício</p>
@@ -223,6 +247,8 @@ export default function Bonus() {
                 src={"/images/suporte_layer.png"}
                 width={70}
                 height={70}
+                fetchPriority="high"
+                loading="eager"
                 alt="cetificado de curso de AutoCAD"
               />
               <p className="text-2xl">Suporte Exclusivo</p>

@@ -11,6 +11,7 @@ export default function Professor() {
             width={2611}
             height={3264}
             className="max-w-500 w-full h-full rounded-2xl"
+            fetchPriority="high"
             loading="eager"
             alt="Professor do curso de AutoCAD"
           />

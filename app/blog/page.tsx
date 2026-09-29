@@ -5,70 +5,198 @@ import { getAllPosts } from "@/lib/blog";
 export default function BlogPage() {
   const posts = getAllPosts();
 
+  const destaque = posts[0];
+  const recentes = posts.slice(1);
+
   return (
-    <main className="min-h-screen">
-      {/* HEADER */}
+    <main className="blog-page">
+      {/* HERO */}
+      <section className="blog-hero">
+        <div className="blog-hero-overlay" />
 
-      <section className="py-20 px-6 text-center">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-sm font-bold uppercase tracking-widest text-[#ff0f57] mb-4">
-            Blog Mestre do AutoCAD
-          </p>
+        <div className="blog-hero-content">
+          <span className="blog-label">BLOG MESTRE DO AUTOCAD</span>
 
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Conteúdos para dominar o AutoCAD
+          <h1>
+            Aprenda AutoCAD.
+            <br />
+            <strong>Crie. Evolua. Domine.</strong>
           </h1>
 
-          <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
-            Dicas, tutoriais e conteúdos práticos para você aprender AutoCAD e
-            evoluir seus projetos.
+          <p>
+            Tutoriais, dicas e conteúdos práticos para você aprender AutoCAD e
+            desenvolver projetos com mais segurança.
           </p>
+
+          <div className="blog-search">
+            <span>⌕</span>
+
+            <input
+              type="text"
+              placeholder="O que você quer aprender?"
+              aria-label="Pesquisar no blog"
+            />
+          </div>
         </div>
       </section>
 
-      {/* ARTIGOS */}
+      {/* CATEGORIAS */}
+      <section className="blog-categories">
+        <div className="blog-container">
+          <div className="categories-header">
+            <span>EXPLORE O CONTEÚDO</span>
+            <h2>Encontre o que você precisa</h2>
+          </div>
 
-      <section className="px-6 pb-20">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-2xl font-bold mb-8">Artigos recentes</h2>
+          <div className="categories-list">
+            <Link href="/blog">Todos</Link>
+            <Link href="/blog?categoria=autocad">AutoCAD</Link>
+            <Link href="/blog?categoria=tutoriais">Tutoriais</Link>
+            <Link href="/blog?categoria=dicas">Dicas</Link>
+            <Link href="/blog?categoria=projetos">Projetos</Link>
+          </div>
+        </div>
+      </section>
 
-          {posts.length === 0 ? (
-            <p>Nenhum artigo publicado ainda.</p>
-          ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {posts.map(post => (
-                <article
-                  key={post.slug}
-                  className="border rounded-2xl overflow-hidden"
+      {/* DESTAQUE */}
+      {destaque && (
+        <section className="blog-featured">
+          <div className="blog-container">
+            <div className="section-heading">
+              <span>EM DESTAQUE</span>
+              <h2>Comece por aqui</h2>
+            </div>
+
+            <article className="featured-card">
+              {destaque.image ? (
+                <div className="featured-image">
+                  <Image
+                    src={destaque.image}
+                    alt={destaque.title}
+                    fill
+                    priority
+                    sizes="(max-width: 900px) 120vw, 55vw"
+                    className="blog-image"
+                  />
+                </div>
+              ) : (
+                <div className="featured-image featured-placeholder">
+                  <span>AutoCAD</span>
+                </div>
+              )}
+
+              <div className="featured-content">
+                <span className="post-category">{destaque.category}</span>
+
+                <h3>{destaque.title}</h3>
+
+                <p>{destaque.description}</p>
+
+                <div className="post-meta">
+                  <span>📖 Leitura rápida</span>
+                  <span>•</span>
+                  <span>AutoCAD</span>
+                </div>
+
+                <Link
+                  href={`/blog/${destaque.slug}`}
+                  className="featured-button"
                 >
-                  {post.image && (
-                    <div className="relative aspect-video">
-                      <Image
-                        src={post.image}
-                        alt={post.title}
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
-                  )}
+                  Ler artigo
+                  <span>→</span>
+                </Link>
+              </div>
+            </article>
+          </div>
+        </section>
+      )}
 
-                  <div className="p-6">
-                    <p className="text-sm font-bold text-[#ff0f57] mb-2">
-                      {post.category}
-                    </p>
+      {/* ARTIGOS RECENTES */}
+      <section className="blog-posts">
+        <div className="blog-container">
+          <div className="section-heading posts-heading">
+            <div>
+              <span>CONTEÚDO RECENTE</span>
+              <h2>Artigos recentes</h2>
+            </div>
 
-                    <h3 className="text-xl font-bold mb-3">{post.title}</h3>
+            <p>Conteúdos para ajudar você a aprender AutoCAD na prática.</p>
+          </div>
 
-                    <p className="text-gray-600 mb-5">{post.description}</p>
+          {recentes.length > 0 ? (
+            <div className="posts-grid">
+              {recentes.map(post => (
+                <article key={post.slug} className="post-card">
+                  <Link href={`/blog/${post.slug}`} className="post-image-link">
+                    {post.image ? (
+                      <div className="post-image">
+                        <Image
+                          src={post.image}
+                          alt={post.title}
+                          fill
+                          sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 33vw"
+                          className="blog-image"
+                        />
+                      </div>
+                    ) : (
+                      <div className="post-image post-placeholder">
+                        <span>AUTO</span>
+                        <strong>CAD</strong>
+                      </div>
+                    )}
+                  </Link>
 
-                    <Link href={`/blog/${post.slug}`} className="font-bold">
-                      Ler artigo →
+                  <div className="post-content">
+                    <span className="post-category">{post.category}</span>
+
+                    <h3>
+                      <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+                    </h3>
+
+                    <p>{post.description}</p>
+
+                    <Link href={`/blog/${post.slug}`} className="post-link">
+                      Ler artigo
+                      <span>→</span>
                     </Link>
                   </div>
                 </article>
               ))}
             </div>
+          ) : (
+            <div className="empty-blog">
+              <p>Nenhum artigo publicado ainda.</p>
+            </div>
           )}
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="blog-course-cta">
+        <div className="blog-container">
+          <div className="course-cta-content">
+            <span>QUER IR ALÉM DOS TUTORIAIS?</span>
+
+            <h2>
+              Aprenda AutoCAD
+              <strong> do zero ao avançado.</strong>
+            </h2>
+
+            <p>
+              Tenha acesso a um curso completo, com aulas práticas para evoluir
+              seus conhecimentos e desenvolver seus projetos.
+            </p>
+
+            <a
+              href="https://go.hotmart.com/H101021157N?ap=4b22"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="course-cta-button"
+            >
+              CONHECER O CURSO
+              <span>→</span>
+            </a>
+          </div>
         </div>
       </section>
     </main>
