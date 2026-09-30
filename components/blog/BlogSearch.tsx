@@ -110,7 +110,7 @@ const BlogSearch = ({ posts }: BlogSearchProps) => {
       {hasSearch && (
         <div className="absolute left-0 right-0 z-50 mt-2 overflow-hidden rounded-xl border border-gray-200 bg-white shadow-xl">
           {filteredPosts.length > 0 ? (
-            <div className="max-h-[400px] overflow-y-auto">
+            <div className="max-h-100 overflow-y-auto">
               {filteredPosts.map(post => (
                 <Link
                   key={post.slug}

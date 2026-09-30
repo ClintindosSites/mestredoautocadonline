@@ -235,7 +235,7 @@ const RelatedPosts = ({
               <Link href={`/blog/${post.slug}`} className="block">
                 {/* Imagem */}
                 {post.image ? (
-                  <div className="relative aspect-[16/9] overflow-hidden bg-gray-100">
+                  <div className="relative aspect-video overflow-hidden bg-gray-100">
                     <img
                       src={post.image}
                       alt={post.title || "Artigo relacionado"}
