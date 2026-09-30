@@ -1,3 +1,5 @@
+import Footer from "@/components/blog/BlogFooter";
+import BlogHeader from "@/components/blog/BlogHeader";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -14,5 +16,12 @@ export default function BlogLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <div className="blog-layout">{children}</div>;
+  return (
+    <div className="blog-layout">
+      {" "}
+      <BlogHeader />
+      {children}
+      <Footer />
+    </div>
+  );
 }

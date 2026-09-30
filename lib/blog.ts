@@ -10,9 +10,26 @@ export interface BlogPost {
   description: string;
   date: string;
   category: string;
-  image?: string;
+  image: string;
   author: string;
   content: string;
+}
+
+export interface TocItem {
+  id: string;
+  text: string;
+  level: 2 | 3;
+}
+
+function slugifyHeading(text: string): string {
+  return text
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim()
+    .replace(/[^\w\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-");
 }
 
 export function getAllPosts(): BlogPost[] {
@@ -49,4 +66,63 @@ export function getPostBySlug(slug: string): BlogPost | undefined {
   const posts = getAllPosts();
 
   return posts.find(post => post.slug === slug);
+}
+
+export function getTableOfContents(content: string): TocItem[] {
+  const lines = content.split("\n");
+  const items: TocItem[] = [];
+  const usedIds = new Set<string>();
+
+  let insideCodeBlock = false;
+
+  for (const line of lines) {
+    const trimmedLine = line.trim();
+
+    if (trimmedLine.startsWith("```")) {
+      insideCodeBlock = !insideCodeBlock;
+      continue;
+    }
+
+    if (insideCodeBlock) {
+      continue;
+    }
+
+    const match = /^(#{2,3})\s+(.+?)\s*$/.exec(trimmedLine);
+
+    if (!match) {
+      continue;
+    }
+
+    const level = match[1].length as 2 | 3;
+
+    const text = match[2]
+      .replace(/\*\*/g, "")
+      .replace(/\*/g, "")
+      .replace(/`/g, "")
+      .trim();
+
+    if (!text) {
+      continue;
+    }
+
+    const baseId = slugifyHeading(text);
+
+    let id = baseId;
+    let counter = 2;
+
+    while (usedIds.has(id)) {
+      id = `${baseId}-${counter}`;
+      counter++;
+    }
+
+    usedIds.add(id);
+
+    items.push({
+      id,
+      text,
+      level,
+    });
+  }
+
+  return items;
 }
