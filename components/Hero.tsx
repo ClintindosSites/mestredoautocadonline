@@ -17,14 +17,14 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="container">
-        <div className="hero-content">
-          <h1 className="flex flex-col text-4xl">
+        <div className="hero-content gap-5 items-center text-center">
+          <h1 className="flex flex-col text-4xl text-[#fefefe]">
             <span className="text-[#ff0f57] font-bold">
               Domine o AutoCAD do Zero ao 3D Avançado
             </span>
             <span>E conquiste as melhores oportunidades do mercado</span>
           </h1>
-          <p className="text-lg">
+          <p className="text-lg text-[#fefefe]">
             <strong>
               Curso de AutoCAD Online completo do básico ao avançado{" "}
             </strong>
@@ -60,7 +60,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="hero-img">
+        {/*   <div className="hero-img">
           <Image
             src={"/images/autocad-total.webp"}
             alt="Imagem de planta baixa do Curso de AutoCAD Online"
@@ -70,7 +70,7 @@ export default function Hero() {
             loading="eager"
             fetchPriority="high"
           />
-        </div>
+        </div>*/}
       </div>
       <div className="trust-bar">
         <div className="container">
