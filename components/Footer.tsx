@@ -1,6 +1,18 @@
+"use client";
+
 import Link from "next/link";
 
 const Footer = () => {
+  const handleCheckoutClick = () => {
+    // GA4
+    window.gtag?.("event", "footer_checkout", {
+      product: "curso_autocad",
+      source: "mestredoautocad",
+    });
+
+    // Meta
+    window.fbq?.("track", "InitiateCheckout");
+  };
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -41,6 +53,7 @@ const Footer = () => {
               href="https://go.hotmart.com/H101021157N?ap=4b22"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={handleCheckoutClick}
             >
               Comprar o Curso
             </a>
@@ -88,6 +101,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="footer-button"
+            onClick={handleCheckoutClick}
           >
             QUERO COMEÇAR AGORA
           </a>

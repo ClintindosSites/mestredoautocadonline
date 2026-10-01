@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
+import Analytics from "@/components/Analytics";
+import PageTracker from "@/components/PageTracker";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -26,18 +28,15 @@ export const metadata: Metadata = {
     "curso de AutoCAD online",
     "Curso de AutoCAD com certificado",
     "curso de Revit",
-    "curso de Revit online",
-    "curso de SketchUp",
-    "curso de BIM",
-    "AutoCAD online",
-    "Revit online",
-    "BIM",
-    "arquitetura",
-    "engenharia",
-    "desenho técnico",
+    "comprar curso de autocad",
+    "comprar curso de autocad online",
+    "curso de autocad online",
+    "curso de desenho técnico",
     "projetos arquitetônicos",
     "cursos de arquitetura",
     "cursos para arquitetos",
+    "como aprender autocad",
+    "curso de autocad preço",
   ],
 
   authors: [
@@ -106,7 +105,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className={`${montserrat.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <Analytics />
+        <PageTracker />
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{ display: "none" }}
+            src="https://www.facebook.com/tr?id=1035243079482901&ev=PageView&noscript=1"
+            alt=""
+          />
+        </noscript>
+        {children}
+      </body>
     </html>
   );
 }

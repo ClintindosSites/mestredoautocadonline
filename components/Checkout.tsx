@@ -1,7 +1,19 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
 export default function CheckoutFinal() {
+  const handleCheckoutClick = () => {
+    //ga4
+    window.gtag?.("event", "checkout_principal", {
+      product: "curso_autocad",
+      source: "mestredoautocad",
+    });
+
+    /// meta
+    window.fbq?.("track", "InitiateCheckout");
+  };
   return (
     <section className="checkout-final bg-[#f5f5f5] py-20" id="checkout-final">
       <div className="container justify-between gap-15">
@@ -46,6 +58,7 @@ export default function CheckoutFinal() {
             href={"https://go.hotmart.com/H101021157N?ap=4b22"}
             className="btn-primary"
             id="checkout-final-btn"
+            onClick={handleCheckoutClick}
           >
             Clique aqui e compre agora o seu curso de AutoCAD
           </Link>

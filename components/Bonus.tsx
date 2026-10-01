@@ -1,7 +1,19 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Bonus() {
+  const handlCheckoutClick = () => {
+    //ga4
+    window.gtag?.("event", "bonus_checkout", {
+      product: "curso_autocad",
+      source: "mestredoautocad,",
+    });
+
+    //meta
+    window.fbq?.("track", "InitiateCheckout");
+  };
   return (
     <section className="bonus" id="bonus">
       <div className="container">
@@ -91,6 +103,7 @@ export default function Bonus() {
             href={"https://go.hotmart.com/H101021157N?ap=4b22"}
             className="btn-primary"
             id="bonus-btn"
+            onClick={handlCheckoutClick}
           >
             Clique e garanta o conteúdo bônus
           </Link>
@@ -195,6 +208,7 @@ export default function Bonus() {
               href={"https://go.hotmart.com/H101021157N?ap=4b22"}
               className="btn-primary"
               id="checkout-bonus-btn"
+              onClick={handlCheckoutClick}
             >
               Compre agora e torne-se um Mestre do AutoCAD
             </Link>

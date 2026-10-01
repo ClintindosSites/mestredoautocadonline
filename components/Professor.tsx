@@ -1,7 +1,17 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 
 export default function Professor() {
+  const handleCheckoutClick = () => {
+    window.gtag?.("event", "professor_checkout", {
+      product: "curso_autocad",
+      source: "mestreautocad",
+    });
+
+    window.fbq?.("track", "InitiateCheckout");
+  };
   return (
     <section className="professor" id="professor">
       <div className="container gap-10">
@@ -31,6 +41,7 @@ export default function Professor() {
             <Link
               href={"https://go.hotmart.com/H101021157N?ap=4b22"}
               className="text-[#ff0f57] font-bold"
+              onClick={handleCheckoutClick}
             >
               Expert Cursos
             </Link>

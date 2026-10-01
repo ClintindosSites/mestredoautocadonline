@@ -71,6 +71,17 @@ export default function FAQ() {
     setAberta(aberta === index ? null : index);
   };
 
+  const handleCheckoutClick = () => {
+    // GA4
+    window.gtag?.("event", "faq_checkout", {
+      product: "curso_autocad",
+      source: "mestredoautocad",
+    });
+
+    // Meta
+    window.fbq?.("track", "InitiateCheckout");
+  };
+
   return (
     <section className="faq" id="faq">
       <div className="faq-container">
@@ -125,6 +136,7 @@ export default function FAQ() {
           <a
             href="https://go.hotmart.com/H101021157N?ap=4b22"
             className="faq-button"
+            onClick={handleCheckoutClick}
           >
             QUERO COMEÇAR AGORA
           </a>

@@ -1,6 +1,17 @@
+"use client";
+
 import Link from "next/link";
 
 export default function PreCTA() {
+  const handleCheckoutClick = () => {
+    window.gtag?.("event", "cta_checkout", {
+      product: "curso_autocad",
+      source: "mestredoautocad",
+    });
+
+    window.fbq?.("track", "InitiateCheckout");
+  };
+
   return (
     <section className="precta">
       <div className="container">
@@ -17,6 +28,7 @@ export default function PreCTA() {
           <Link
             href={"https://go.hotmart.com/H101021157N?ap=4b22"}
             className="btn-primary"
+            onClick={handleCheckoutClick}
           >
             Quero me tornar um Mestre do AutoCAD
           </Link>

@@ -1,7 +1,19 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Hero() {
+  const handleCheckoutClick = () => {
+    // GA4
+    window.gtag?.("event", "hero_checkout", {
+      product: "curso_autocad",
+      source: "mestredoautocad",
+    });
+
+    // Meta
+    window.fbq?.("track", "InitiateCheckout");
+  };
   return (
     <section className="hero">
       <div className="container">
@@ -25,6 +37,7 @@ export default function Hero() {
           <Link
             href={"https://go.hotmart.com/H101021157N?ap=4b22"}
             className="btn-primary"
+            onClick={handleCheckoutClick}
           >
             Quero me tornar um Mestre do AutoCAD
           </Link>

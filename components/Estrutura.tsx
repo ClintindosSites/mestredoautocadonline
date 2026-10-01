@@ -1,6 +1,18 @@
+"use client";
+
 import Link from "next/link";
 
 export default function Estrutura() {
+  const handleCheckoutClick = () => {
+    // GA4
+    window.gtag?.("event", "conteudo_checkout", {
+      product: "curso_autocad",
+      source: "mestredoautocad",
+    });
+
+    // Meta
+    window.fbq?.("track", "InitiateCheckout");
+  };
   return (
     <section className="estrutura" id="conteudo">
       <div className="container">
@@ -137,6 +149,7 @@ export default function Estrutura() {
         <Link
           href={"https://go.hotmart.com/H101021157N?ap=4b22"}
           className="btn-primary"
+          onClick={handleCheckoutClick}
         >
           Torne-se um mestre do autocad com acesso vitalício
         </Link>

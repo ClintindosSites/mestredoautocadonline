@@ -1,7 +1,19 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
 const Apresentation = () => {
+  const handleCheckoutClick = () => {
+    //tag ga4
+    window.gtag?.("event", "begin_checkout", {
+      product: "curso_autocad",
+      source: "mestredoautocad",
+    });
+
+    // meta
+    window.fbq?.("track", "initiateCheckout");
+  };
   return (
     <section className="intro" id="curso">
       <div className="container">
@@ -22,7 +34,7 @@ const Apresentation = () => {
             <strong>100% prática,</strong> economizando tempo com{" "}
             <strong>aulas diretas e objetivas</strong>.
           </p>
-          <p className="text-lg">
+          <p className="text-lg ">
             Em{" "}
             <strong className="text-[#ff0f57]">
               10 módulos com 40 videoaulas
@@ -41,13 +53,19 @@ const Apresentation = () => {
             , com exercícios práticos em cada aula. Além disso,conta com uma
             área de membros exclusiva para tirar todas as duvidas diretamente
             com o professor{" "}
-            <a href="https://go.hotmart.com/H101021157N">
+            <a
+              href="https://go.hotmart.com/H101021157N"
+              onClick={handleCheckoutClick}
+            >
               <strong>VICTOR BRIENCE</strong>
             </a>
             , e ao concluir o curso, recebe um{" "}
             <strong>certificado reconhecido</strong> de capacitação profissional
             da escola{" "}
-            <a href="https://go.hotmart.com/H101021157N">
+            <a
+              href="https://go.hotmart.com/H101021157N"
+              onClick={handleCheckoutClick}
+            >
               <strong>Expert Cursos</strong>
             </a>
             , que vai te formar um{" "}
@@ -67,6 +85,7 @@ const Apresentation = () => {
           <Link
             href={"https://go.hotmart.com/H101021157N?ap=4b22"}
             className="btn-primary"
+            onClick={handleCheckoutClick}
           >
             Torne-se um mestre do autocad por apenas R$197
           </Link>
