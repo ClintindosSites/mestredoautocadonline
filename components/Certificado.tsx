@@ -18,24 +18,22 @@ export default function Certificado() {
             </p>
           </div>
           <Image
-            src={"/images/certificado-autocad.webp"}
+            src="/images/certificado-autocad.webp"
             alt="Certificado do Curso de AutoCAD online"
             width={1536}
             height={1024}
             className="w-115 h-full"
-            fetchPriority="high"
-            loading="eager"
+            sizes="(max-width: 768px) 100vw, 460px"
           />
         </div>
         <div className="certificado-row flex items-center">
           <Image
-            src={"/images/estudantes-autocad.webp"}
-            alt="Para quem serve o curso de autocad? estudantes de engenharia e arquitetura e demais que queiram ganhar dinheiro com desenho técnico."
+            src="/images/estudantes-autocad.webp"
+            alt="Estudantes de engenharia e arquitetura aprendendo AutoCAD e profissionais que desejam trabalhar com desenho técnico."
             width={2456}
             height={1689}
             className="w-115 h-full"
-            fetchPriority="high"
-            loading="eager"
+            sizes="(max-width: 768px) 100vw, 460px"
           />
           <div className="text">
             <h2 className="text-[#ff0f57] font-bold text-4xl">

@@ -74,11 +74,12 @@ const Apresentation = () => {
         </div>
         <div className="intro-img">
           <Image
-            src={"/images/mestreautocad3d.webp"}
+            src="/images/mestreautocad3d.webp"
             alt="Avatar do Mestre do AutoCAD, curso de AutoCAD online"
             width={1024}
             height={1536}
             className="mestre w-150 h-full"
+            sizes="(max-width: 768px) 100vw, 600px"
             fetchPriority="high"
             loading="eager"
           />
