@@ -19,13 +19,12 @@ export default function Bonus() {
       <div className="container">
         <div className="text">
           <Image
-            src={"/images/mestre-do-autocad-bonus.webp"}
-            height={1183}
+            src="/images/mestre-do-autocad-bonus.webp"
             width={1330}
+            height={1183}
             className="w-120 h-full"
-            fetchPriority="high"
-            loading="eager"
-            alt="Mestre do AutoCAD oferece 5 aulas bonus"
+            sizes="(max-width: 768px) 100vw, 480px"
+            alt="Mestre do AutoCAD oferece 5 aulas bônus"
           />
           <h2 className="text-3xl font-extrabold">
             Além de todo o Conteúdo do curso, <br /> o{" "}
@@ -80,12 +79,11 @@ export default function Bonus() {
             </div>
             <div className="bonus-infos">
               <Image
-                src={"/images/projeto-autocad-3.webp"}
+                src="/images/projeto-autocad-3.webp"
                 width={1920}
                 height={1080}
-                fetchPriority="high"
-                loading="eager"
                 className="w-120 h-full"
+                sizes="(max-width: 768px) 100vw, 480px"
                 alt="Projeto de AutoCAD Online"
               />
               <div className="trust-item">
@@ -196,13 +194,12 @@ export default function Bonus() {
               ou apenas <strong> R$197</strong> à vista
             </p>
             <Image
-              src={"/images/checkout-bonus-mestre-do-autocad.webp"}
+              src="/images/checkout-bonus-mestre-do-autocad.webp"
               width={1587}
               height={991}
               className="w-auto h-full"
-              fetchPriority="high"
-              loading="eager"
-              alt="Clique e adquira agora o bonus do mestre do autocad"
+              sizes="(max-width: 768px) 100vw, 600px"
+              alt="Oferta de bônus do Mestre do AutoCAD"
             />
             <Link
               href={"https://go.hotmart.com/H101021157N?ap=4b22"}
