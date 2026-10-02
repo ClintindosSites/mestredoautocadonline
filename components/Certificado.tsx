@@ -2,14 +2,38 @@ import Image from "next/image";
 
 export default function Certificado() {
   return (
-    <section className="certificado">
-      <div className="container py-40">
-        <div className="certificado-row flex items-center">
+    <section className="certificado bg-[#1d1d1d]">
+      <div className="container gap-10 py-40">
+        <div className="certificado-row flex text-center  items-center">
+          <div className="text">
+            <h2 className="text-[#ff0f57] font-bold text-4xl">
+              PARA QUEM SERVE O CURSO
+            </h2>
+            <p className="text-lg text-[#fefefe]">
+              O <strong>Curso AutoCAD Online do básico ao avançado</strong> foi
+              criado para quem sente dificuldade em desenvolver projetos
+              técnicos, perde tempo tentando aprender sozinho por tutoriais
+              soltos ou não consegue apresentar desenhos de forma profissional.
+            </p>
+            <p className="text-lg text-[#fefefe]">
+              Ele é indicado para qualquer pessoa que queira aprender a usar o
+              AutoCAD de maneira prática e eficiente, conquistando mais
+              segurança e destaque na área.
+            </p>
+            <p className="text-lg text-[#fefefe]">
+              Mesmo que você nunca tenha aberto o programa, o curso começa do
+              zero e evolui passo a passo até recursos avançados. Tudo em aulas
+              claras e diretas, que você pode assistir no computador, notebook,
+              tablet ou celular — <strong>online ou offline.</strong>
+            </p>
+          </div>
+        </div>
+        <div className="certificado-row flex flex-col text-center items-center">
           <div className="text">
             <h2 className="text-[#ff0f57] font-bold text-4xl">
               Seja um Mestre do AutoCAD com Certificado Reconhecido{" "}
             </h2>
-            <p className="text-lg">
+            <p className="text-lg text-[#fefefe]">
               <strong>Certificado incluso,</strong> emitido de forma online em
               PDF. <strong>Válido em todo território nacional</strong> na
               comprovação de atividades de capacitação profissional,
@@ -25,38 +49,6 @@ export default function Certificado() {
             className="w-115 h-full"
             sizes="(max-width: 768px) 100vw, 460px"
           />
-        </div>
-        <div className="certificado-row flex items-center">
-          <Image
-            src="/images/estudantes-autocad.webp"
-            alt="Estudantes de engenharia e arquitetura aprendendo AutoCAD e profissionais que desejam trabalhar com desenho técnico."
-            width={2456}
-            height={1689}
-            className="w-115 h-full"
-            sizes="(max-width: 768px) 100vw, 460px"
-          />
-          <div className="text">
-            <h2 className="text-[#ff0f57] font-bold text-4xl">
-              PARA QUEM SERVE O CURSO
-            </h2>
-            <p className="text-lg">
-              O <strong>Curso AutoCAD Online do básico ao avançado</strong> foi
-              criado para quem sente dificuldade em desenvolver projetos
-              técnicos, perde tempo tentando aprender sozinho por tutoriais
-              soltos ou não consegue apresentar desenhos de forma profissional.
-            </p>
-            <p>
-              Ele é indicado para qualquer pessoa que queira aprender a usar o
-              AutoCAD de maneira prática e eficiente, conquistando mais
-              segurança e destaque na área.
-            </p>
-            <p>
-              Mesmo que você nunca tenha aberto o programa, o curso começa do
-              zero e evolui passo a passo até recursos avançados. Tudo em aulas
-              claras e diretas, que você pode assistir no computador, notebook,
-              tablet ou celular — <strong>online ou offline.</strong>
-            </p>
-          </div>
         </div>
       </div>
     </section>

@@ -45,9 +45,8 @@ export default function Bonus() {
                 width={1920}
                 height={1080}
                 className="w-120 h-full"
-                fetchPriority="high"
-                loading="eager"
                 alt="Projeto de AutoCAD Online"
+                sizes="(max-width: 768px) 100vw, 480px"
               />
               <div className="trust-item">
                 <span className="icon">✓</span>
@@ -63,10 +62,9 @@ export default function Bonus() {
                 src={"/images/projeto-autocad-2.webp"}
                 width={1920}
                 height={1080}
-                fetchPriority="high"
-                loading="eager"
                 className="w-120 h-full"
                 alt="Projeto de AutoCAD Online"
+                sizes="(max-width: 768px) 100vw, 480px"
               />
               <div className="trust-item">
                 <span className="icon">✓</span>
