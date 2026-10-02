@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Certificado() {
   return (
-    <section className="certificado bg-[#1d1d1d]">
+    <section className="certificado bg-[#1d1d1d]" id="certificado">
       <div className="container gap-10 py-40">
         <div className="certificado-row flex text-center  items-center">
           <div className="text">

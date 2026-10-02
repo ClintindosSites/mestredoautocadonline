@@ -13,7 +13,7 @@ export default function PreCTA() {
   };
 
   return (
-    <section className="precta">
+    <section className="precta" id="precta">
       <div className="container">
         <div className="precta-box flex flex-col gap-4 items-center text-center bg-[#171717] p-20 rounded-2xl">
           <h2 className="text-[#ff0f57] text-4xl font-extrabold">
