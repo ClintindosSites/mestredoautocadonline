@@ -25,10 +25,9 @@ export default function Analytics() {
 
           // GA4
           gtag('config', 'G-HWXYCWFKX0');
-          gtag('config', 'G-3P5VRB3EH9');
+     
 
-          // Google Ads
-          gtag('config', 'AW-17677408224');
+    
         `}
       </Script>
 
