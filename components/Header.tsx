@@ -1,13 +1,13 @@
 import Link from "next/link";
 
-const BlogHeader = () => {
+const Header = () => {
   return (
     <header className="w-full bg-[#111111] border-b border-white/10">
       <div className="max-w-7xl mx-auto px-6">
         <div className="h-20 flex items-center justify-between gap-8">
           {/* LOGO */}
           <Link
-            href="/blog"
+            href="/"
             className="flex flex-col leading-none shrink-0"
             aria-label="Mestre do AutoCAD - Blog"
           >
@@ -34,20 +34,6 @@ const BlogHeader = () => {
               className="text-sm font-medium text-white transition-colors"
             >
               Blog
-            </Link>
-
-            <Link
-              href="/blog/autocad"
-              className="text-sm font-medium text-gray-300 hover:text-white transition-colors"
-            >
-              AutoCAD
-            </Link>
-
-            <Link
-              href="/blog/tutorials"
-              className="text-sm font-medium text-gray-300 hover:text-white transition-colors"
-            >
-              Tutoriais
             </Link>
           </nav>
 
@@ -77,4 +63,4 @@ const BlogHeader = () => {
   );
 };
 
-export default BlogHeader;
+export default Header;

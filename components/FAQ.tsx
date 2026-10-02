@@ -88,11 +88,11 @@ export default function FAQ() {
         <div className="faq-header">
           <span className="faq-label">TIRE SUAS DÚVIDAS</span>
 
-          <h2>
+          <h2 className="text-2xl">
             Perguntas <strong>Frequentes</strong>
           </h2>
 
-          <p>
+          <p className="text-xl text-[#fffff]">
             Ainda ficou com alguma dúvida? Confira as respostas para as
             principais perguntas sobre o curso Mestre do AutoCAD.
           </p>

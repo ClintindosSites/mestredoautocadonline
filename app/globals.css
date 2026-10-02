@@ -29,6 +29,7 @@ body {
   background-repeat: no-repeat;
   color: var(--foreground);
   font-family: "Montserrat", sans-serif;
+  background-color: #1d1d1d;
 }
 .btn-primary {
   background: linear-gradient(135deg, #c2325d, rgb(255, 15, 87));
@@ -76,11 +77,11 @@ body {
 .hero-stat .num {
   font-size: 1.8rem;
   font-weight: 800;
-  color: #fca5a5;
+  color: #ff0f57;
 }
 .hero-stat .label {
   font-size: 0.85rem;
-  color: #94a3b8;
+  color: #fff;
 }
 /* ===== TRUST BAR ===== */
 .trust-bar {
@@ -100,7 +101,7 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  color: #475569;
+  color: #1d1d1d;
 
   font-weight: 700;
   font-size: 1.1rem;
@@ -215,7 +216,8 @@ body {
   border-radius: 20px;
 }
 .info-stats {
-  background-color: #475569;
+  background-color: #fefefe;
+  color: #1d1d1d;
   padding: 20px;
   border-radius: 20px;
 

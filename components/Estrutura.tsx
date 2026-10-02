@@ -29,52 +29,52 @@ export default function Estrutura() {
         <div className="know-items">
           <div className="col">
             <div className="know-item">
-              <h3 className="text-2xl font-bold">
+              <h3 className="text-2xl font-bold text-[#ffffff]">
                 <span className="text-[#ff0f57]">MÓDULO 1</span> - Introdução e
                 Apresentação
               </h3>
-              <p>
+              <p className="text-xl text-[#ffffff]">
                 Download e instalação da versão gratuita do Autocad.
                 Apresentação do curso e da plataforma.
               </p>
             </div>
             <div className="know-item">
-              <h3 className="text-2xl font-bold">
-                <span className="text-[#ff0f57]">MÓDULO 2</span> - Configurações
-                e Comandos Iniciais
+              <h3 className="text-2xl font-bold text-[#ffffff]">
+                <span className="text-[#ff0f57] ">MÓDULO 2</span> -
+                Configurações e Comandos Iniciais
               </h3>
-              <p>
+              <p className="text-xl text-[#ffffff]">
                 Área de trabalho, comandos e configurações iniciais, primeiros
                 desenhos, criações práticas de formas geométricas, comandos de
                 construção e de modificações utilitárias.
               </p>
             </div>
             <div className="know-item">
-              <h3 className="text-2xl font-bold">
+              <h3 className="text-2xl font-bold text-[#ffffff]">
                 <span className="text-[#ff0f57]">MÓDULO 3</span> - Textos,
                 Layers e Cotas
               </h3>
-              <p>
+              <p className="text-xl text-[#ffffff]">
                 Criação e configuração de layers/camadas, criação e configuração
                 de cotas, medidas e textos.
               </p>
             </div>
             <div className="know-item">
-              <h3 className="text-2xl font-bold">
+              <h3 className="text-2xl font-bold text-[#ffffff]">
                 <span className="text-[#ff0f57]">MÓDULO 4</span> - Praticando no
                 AutoCAD
               </h3>
-              <p>
+              <p className="text-xl text-[#ffffff]">
                 Aulas práticas na criação de figuras básicas, objetos, desenhos
                 em perspectiva e desenho técnico com diferentes tipos de vistas
                 (superior, frontal, lateral esquerda).
               </p>
             </div>
             <div className="know-item">
-              <h3 className="text-2xl font-bold">
+              <h3 className="text-2xl font-bold text-[#ffffff]">
                 <span className="text-[#ff0f57]">MÓDULO 5</span> - Planta Baixa
               </h3>
-              <p>
+              <p className="text-xl text-[#ffffff]">
                 Execução de planta baixa e planta de corte. Criação de paredes,
                 portas, janelas, blocos, mobiliários, eletrodomésticos,
                 elementos sanitários e detalhamento de cômodos e área dos
@@ -84,11 +84,11 @@ export default function Estrutura() {
           </div>
           <div className="col">
             <div className="know-item">
-              <h3 className="text-2xl font-bold">
-                <span className="text-[#ff0f57]">MÓDULO 6</span> - Elétrica e
+              <h3 className="text-2xl font-bold text-[#ffffff]">
+                <span className="text-[#ff0f57] ">MÓDULO 6</span> - Elétrica e
                 Hidráulica
               </h3>
-              <p>
+              <p className="text-xl text-[#ffffff]">
                 Execução de planta elétrica com diferentes circuitos de
                 iluminação e tomadas, com as respectivas simbologias.
                 Desenvolvimento da hidráulica isométrica.
@@ -96,28 +96,28 @@ export default function Estrutura() {
             </div>
 
             <div className="know-item">
-              <h3 className="text-2xl font-bold">
+              <h3 className="text-2xl font-bold text-[#ffffff]">
                 <span className="text-[#ff0f57]">MÓDULO 7</span> - Escala e
                 Impressão
               </h3>
-              <p>
+              <p className="text-xl text-[#ffffff]">
                 Criação e configuração de diferentes tipos de escalas (metros,
                 centímetros, milímetros). Plotagem e impressão completa em
                 diferentes tipos de folha de impressão.
               </p>
             </div>
             <div className="know-item">
-              <h3 className="text-2xl font-bold">
+              <h3 className="text-2xl font-bold text-[#ffffff]">
                 <span className="text-[#ff0f57]">MÓDULO 8</span> - Modelagem 3D
               </h3>
-              <p>
+              <p className="text-xl text-[#ffffff]">
                 Principais comandos do Autocad 3D, elevação de alvenarias e
                 pisos, ajuste de portas, janelas e telhado. Configuração de
                 materiais, texturas, background e renderização. Escada 3D.
               </p>
             </div>
             <div className="know-item">
-              <h3 className="text-2xl font-bold">
+              <h3 className="text-2xl font-bold text-[#ffffff]">
                 <span className="text-[#ff0f57]">MÓDULO 9</span> - Criação de
                 Peças Mecânicas
               </h3>
@@ -127,7 +127,7 @@ export default function Estrutura() {
               </p>
             </div>
             <div className="know-item">
-              <h3 className="text-2xl font-bold">
+              <h3 className="text-2xl font-bold text-[#ffffff]">
                 <span className="text-[#ff0f57]">MÓDULO 10</span> - Bônus e
                 Projetos
               </h3>
@@ -139,11 +139,11 @@ export default function Estrutura() {
             </div>
           </div>
         </div>
-        <p className="text-lg text-black text-center mt-20">
+        <p className="text-lg text-[#1d1d1d] text-center mt-20">
           10 módulos com mais de 40 videoaulas + material de apoio (e-book) +
           projetos prontos para download
         </p>
-        <p className="text-lg text-black text-center mb-10">
+        <p className="text-lg text-[#1d1d1d] text-center mb-10">
           Conteúdo <strong>100% atualizado</strong> em 2026.
         </p>
         <Link

@@ -8,12 +8,12 @@ export default function Garantia() {
           <h2 className="text-4xl font-bold">
             7 dias de Garantia Incondicional
           </h2>
-          <p className="text-xl">
+          <p className="text-xl text-[#ffffff]">
             Você tem 7 dias para acessar o conteúdo e se ainda achar que os
             cursos não são para você, basta enviar um e-mail solicitando o
             reembolso e devolveremos todo o seu dinheiro, sem perguntas!
           </p>
-          <p className="text-xl">
+          <p className="text-xl text-[#ffffff]">
             Mesmo que a compra seja efetuada via boleto, cartão de crédito ou
             pix.
           </p>

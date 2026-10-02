@@ -18,13 +18,13 @@ const Apresentation = () => {
     <section className="intro" id="curso">
       <div className="container">
         <div className="intro-text gap-2">
-          <h2 className="text-3xl">
+          <h2 className="text-3xl text-[#ffffff]">
             <span className="text-[#ff0f57] font-bold text-4xl">
               Transforme-se em um Mestre do AutoCAD certificado
             </span>{" "}
             <br />e ganhe destaque e autoridade no mercado.
           </h2>
-          <p className="text-lg">
+          <p className="text-lg text-[#ffffff]">
             <strong>
               {" "}
               O curso Online de{" "}
@@ -34,7 +34,7 @@ const Apresentation = () => {
             <strong>100% prática,</strong> economizando tempo com{" "}
             <strong>aulas diretas e objetivas</strong>.
           </p>
-          <p className="text-lg ">
+          <p className="text-lg text-[#ffffff]">
             Em{" "}
             <strong className="text-[#ff0f57]">
               10 módulos com 40 videoaulas
@@ -45,7 +45,7 @@ const Apresentation = () => {
             mecânicas, detalhamentos, plotagem e impressão completa,{" "}
             <strong>tudo online, na prática e sem complicação</strong>.
           </p>
-          <p className="text-lg">
+          <p className="text-lg text-[#ffffff]">
             Você vai do{" "}
             <strong className="text-[#ff0f57] font-extrabold">
               básico ao avançado

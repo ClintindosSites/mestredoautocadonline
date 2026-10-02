@@ -26,7 +26,7 @@ export default function Bonus() {
             sizes="(max-width: 768px) 100vw, 480px"
             alt="Mestre do AutoCAD oferece 5 aulas bônus"
           />
-          <h2 className="text-3xl font-extrabold">
+          <h2 className="text-3xl font-extrabold text-[#ffffff]">
             Além de todo o Conteúdo do curso, <br /> o{" "}
             <span className="text-[#ff0f57]">Mestre do Autocad</span> vai te
             entregar
@@ -50,11 +50,15 @@ export default function Bonus() {
               />
               <div className="trust-item">
                 <span className="icon">✓</span>
-                <p>Projetos Arquitetônicos</p>
+                <p className="text-xl text-[#ffffff]">
+                  Projetos Arquitetônicos
+                </p>
               </div>
               <div className="trust-item">
                 <span className="icon">✓</span>
-                <p>Projetos de fundações e topografia</p>
+                <p className="text-xl text-[#ffffff]">
+                  Projetos de fundações e topografia
+                </p>
               </div>
             </div>
             <div className="bonus-infos">
@@ -68,11 +72,15 @@ export default function Bonus() {
               />
               <div className="trust-item">
                 <span className="icon">✓</span>
-                <p>Projeto de combate e prevenção contra incêndio</p>
+                <p className="text-xl text-[#ffffff]">
+                  Projeto de combate e prevenção contra incêndio
+                </p>
               </div>
               <div className="trust-item">
                 <span className="icon">✓</span>
-                <p>Projetos elétrico e hidráulico</p>
+                <p className="text-xl text-[#ffffff]">
+                  Projetos elétrico e hidráulico
+                </p>
               </div>
             </div>
             <div className="bonus-infos">
@@ -86,11 +94,13 @@ export default function Bonus() {
               />
               <div className="trust-item">
                 <span className="icon">✓</span>
-                <p>Projeto de paginação</p>
+                <p className="text-xl text-[#ffffff]">Projeto de paginação</p>
               </div>
               <div className="trust-item">
                 <span className="icon">✓</span>
-                <p>Folhas prontas para impressão</p>
+                <p className="text-xl text-[#ffffff]">
+                  Folhas prontas para impressão
+                </p>
               </div>
             </div>
           </div>
@@ -108,8 +118,10 @@ export default function Bonus() {
       <div className="bonus-bonus bg-[#ff0f57]">
         <div className="container">
           <div className="text">
-            <h2 className="text-4xl font-bold uppercase">E não é só isso...</h2>
-            <p className="text-2xl">
+            <h2 className="text-4xl font-bold uppercase text-">
+              E não é só isso...
+            </h2>
+            <p className="text-2xl text-[#ffffff]">
               Além dos projetos prontos, acesso vitalício, suporte e
               certificado, o curso oferece ainda mais vantagens para
               potencializar sua experiência de aprendizado, confira abaixo:
@@ -126,10 +138,10 @@ export default function Bonus() {
                 loading="eager"
                 className="w-75 h-full"
               />
-              <h3 className="text-2xl font-bold mb-5">
+              <h3 className="text-2xl font-bold mb-5 text-[#ffffff]">
                 APOSTILA DO AUTOCAD EM PDF
               </h3>
-              <p>
+              <p className="text-xl text-[#ffffff] ">
                 Material de Apoio Completo em PDF com diversas dicas, atalhos,
                 comandos, figuras e exercícios práticos que realizamos durante
                 todas as aulas.
@@ -145,8 +157,10 @@ export default function Bonus() {
                 loading="eager"
                 className="w-75 h-full"
               />
-              <h3 className="text-2xl font-bold my-5">COMUNIDADE DO AUTOCAD</h3>
-              <p>
+              <h3 className="text-2xl font-bold my-5 text-[#ffffff]">
+                COMUNIDADE DO AUTOCAD
+              </h3>
+              <p className="text-xl text-[#ffffff]">
                 Todos os nossos alunos tem acesso a uma Comunidade Exclusiva que
                 conta com diversos alunos e profissionais que estão vivenciando
                 a mesma experiência, você não estará sozinho nessa jornada.
@@ -162,8 +176,10 @@ export default function Bonus() {
                 loading="eager"
                 className="w-75 h-full"
               />
-              <h3 className="text-2xl font-bold">CARTEIRINHA DE ESTUDANTE</h3>
-              <p>
+              <h3 className="text-2xl font-bold text-[#ffffff]">
+                CARTEIRINHA DE ESTUDANTE
+              </h3>
+              <p className="text-xl text-[#ffffff]">
                 Alunos Expert Cursos podem solicitar a sua Carteira de
                 Estudante, um documento oficial que garante meia-entrada em
                 cinemas, shows e nos mais diversos eventos culturais e
@@ -181,10 +197,13 @@ export default function Bonus() {
               <span className="line-through font-bold">R$497,00</span>
             </p>
             <div className="flex gap-2 text-[#1d1d1d] items-center parcels">
-              <p className="text-1xl font-bold text-2xl">
+              <p className="text-1xl font-bold text-2xl text-[#1d1d1d]">
                 Por <br /> 12x
               </p>
-              <p className="text-7xl  font-bold " id="price-parcel">
+              <p
+                className="text-7xl  font-bold  text-[#1d1d1d]"
+                id="price-parcel"
+              >
                 R$20,37
               </p>
             </div>
@@ -214,7 +233,7 @@ export default function Bonus() {
               fetchPriority="high"
               loading="eager"
               alt="Metodos de pagamento do curso de AutoCAD"
-              className="my-5 w-auto h-full"
+              className="my-5 w-auto h-full bg-[#1d1d1d] rounded-2xl"
             />
           </div>
           <div className="bonus-checkout-items flex gap-10 items-center justify-center text-center flex-wrap">
@@ -227,7 +246,9 @@ export default function Bonus() {
                 loading="eager"
                 alt="cetificado de curso de AutoCAD"
               />
-              <p className="text-2xl">Curso com Certificado</p>
+              <p className="text-2xl text-[#1d1d1d] font-semibold">
+                Curso com Certificado
+              </p>
             </div>
             <div className="bg-[#ff0f57] p-10 rounded-2xl h-50 w-60 flex flex-col items-center">
               <Image
@@ -238,7 +259,9 @@ export default function Bonus() {
                 loading="eager"
                 alt="cetificado de curso de AutoCAD"
               />
-              <p className="text-2xl ">Do Básico ao Avançado</p>
+              <p className="text-2xl text-[#1d1d1d] font-semibold">
+                Do Básico ao Avançado
+              </p>
             </div>
             <div className="bg-[#ff0f57] p-10 rounded-2xl h-50 w-60 flex flex-col items-center">
               <Image
@@ -249,7 +272,9 @@ export default function Bonus() {
                 loading="eager"
                 alt="cetificado de curso de AutoCAD"
               />
-              <p className="text-2xl">Acesso Vitalício</p>
+              <p className="text-2xl text-[#1d1d1d] font-semibold">
+                Acesso Vitalício
+              </p>
             </div>
             <div className="bg-[#ff0f57] p-10 rounded-2xl h-50 w-60 flex flex-col items-center">
               <Image
@@ -260,7 +285,9 @@ export default function Bonus() {
                 loading="eager"
                 alt="cetificado de curso de AutoCAD"
               />
-              <p className="text-2xl">Suporte Exclusivo</p>
+              <p className="text-2xl text-[#1d1d1d] font-semibold">
+                Suporte Exclusivo
+              </p>
             </div>
           </div>
         </div>

@@ -43,20 +43,20 @@ export default function Hero() {
           </Link>
           <div className="hero-stats">
             <div className="hero-stat">
-              <div className="num">30h</div>
-              <div className="label">Carga Horária</div>
+              <div className="num text-[#ff0f57]">30h</div>
+              <div className="label text-[#ffffff]">Carga Horária</div>
             </div>
             <div className="hero-stat">
-              <div className="num">40+</div>
-              <div className="label">Videoaulas</div>
+              <div className="num text-[#ff0f57]">40+</div>
+              <div className="label text-[#ffffff]">Videoaulas</div>
             </div>
             <div className="hero-stat">
-              <div className="num">10</div>
-              <div className="label">Módulos</div>
+              <div className="num text-[#ff0f57]">10</div>
+              <div className="label text-[#ffffff]">Módulos</div>
             </div>
             <div className="hero-stat">
-              <div className="num">7 dias</div>
-              <div className="label">Garantia Total</div>
+              <div className="num text-[#ff0f57]">7 dias</div>
+              <div className="label text-[#ffffff]">Garantia Total</div>
             </div>
           </div>
         </div>
@@ -74,19 +74,19 @@ export default function Hero() {
       </div>
       <div className="trust-bar">
         <div className="container">
-          <div className="trust-item">
+          <div className="trust-item text-[#1d1d1d]">
             <span className="icon">✓</span> Acesso Vitalício
           </div>
-          <div className="trust-item">
+          <div className="trust-item text-[#1d1d1d]">
             <span className="icon">✓</span> Certificado Reconhecido
           </div>
-          <div className="trust-item">
+          <div className="trust-item text-[#1d1d1d]">
             <span className="icon">✓</span> Suporte com Professor
           </div>
-          <div className="trust-item">
+          <div className="trust-item text-[#1d1d1d]">
             <span className="icon">✓</span> Pagamento Único
           </div>
-          <div className="trust-item">
+          <div className="trust-item text-[#1d1d1d]">
             <span className="icon">✓</span> Compra 100% Segura
           </div>
         </div>

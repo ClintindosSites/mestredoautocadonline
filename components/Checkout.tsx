@@ -19,9 +19,8 @@ export default function CheckoutFinal() {
       <div className="container justify-between gap-15">
         <div className="price flex flex-col items-center justify-center bg-[#111111] rounded-3xl max-w-200">
           <div className="price-title border-b-4 border-[#ff0f57] w-full h-50 text-center items-center flex justify-center uppercase mb-10">
-            <h3 className="text-3xl font-bold">
-              Transforme-se em um Mestre do AutoCAD com um investimento no valor
-              de:
+            <h3 className="text-xl font-bold text-[#ffffff]">
+              Ingresse nessa jornada para ser um mestre do autocad
             </h3>
           </div>
           <p className="text-4xl text-[#ffffff]">
@@ -62,7 +61,7 @@ export default function CheckoutFinal() {
           >
             Clique aqui e compre agora o seu curso de AutoCAD
           </Link>
-          <div className="img px-20">
+          <div className="img px-20 my-10 ">
             {" "}
             <Image
               src={"/images/metodos-pagamento.webp"}
@@ -74,7 +73,7 @@ export default function CheckoutFinal() {
               fetchPriority="high"
             />
           </div>
-          <p className="mb-15">
+          <p className="mb-15 text-white text-xl">
             {" "}
             Compra 100% segura. Garantia incondicional de 7 dias.
           </p>
@@ -83,82 +82,86 @@ export default function CheckoutFinal() {
           <div className="trust-item">
             {" "}
             <span className="icon">✓</span>
-            <p>Aulas Práticas</p>
+            <p className="text-[#1d1d1d]">Aulas Práticas</p>
           </div>
 
           <div className="trust-item">
             {" "}
             <span className="icon">✓</span>
-            <p>Acesso Vitalício</p>
+            <p className="text-[#1d1d1d]">Acesso Vitalício</p>
           </div>
 
           <div className="trust-item">
             {" "}
             <span className="icon">✓</span>
-            <p>Bônus Exclusivos</p>
+            <p className="text-[#1d1d1d]">Bônus Exclusivos</p>
           </div>
 
           <div className="trust-item">
             {" "}
             <span className="icon">✓</span>
-            <p>Apostila do Curso</p>
+            <p className="text-[#1d1d1d]">Apostila do Curso</p>
           </div>
 
           <div className="trust-item">
             {" "}
             <span className="icon">✓</span>
-            <p>Projetos Prontos</p>
+            <p className="text-[#1d1d1d]">Projetos Prontos</p>
           </div>
 
           <div className="trust-item">
             {" "}
             <span className="icon">✓</span>
-            <p>Exercícios Práticos</p>
+            <p className="text-[#1d1d1d]">Exercícios Práticos</p>
           </div>
 
           <div className="trust-item">
             {" "}
             <span className="icon">✓</span>
-            <p>7 dias de Garantia</p>
+            <p className="text-[#1d1d1d]">7 dias de Garantia</p>
           </div>
 
           <div className="trust-item">
             {" "}
             <span className="icon">✓</span>
-            <p>Parcele em até 12x</p>
+            <p className="text-[#1d1d1d]">Parcele em até 12x</p>
           </div>
           <div className="trust-item">
             {" "}
             <span className="icon">✓</span>
-            <p>Suporte com o Professor</p>
+            <p className="text-[#1d1d1d]">Suporte com o Professor</p>
           </div>
 
           <div className="trust-item">
             {" "}
             <span className="icon">✓</span>
-            <p>Certificado de Conclusão</p>
+            <p className="text-[#1d1d1d]">Certificado de Conclusão</p>
           </div>
 
           <div className="trust-item">
             {" "}
             <span className="icon">✓</span>
-            <p>Receba agora em seu E-mail</p>
+            <p className="text-[#1d1d1d]">Receba agora em seu E-mail</p>
           </div>
           <div className="trust-item">
             <span className="icon">✓</span>
-            <p>Pagamento sem Mensalidades</p>
-          </div>
-
-          <div className="trust-item">
-            {" "}
-            <span className="icon">✓</span>
-            <p>Treinamento Mestre do AutoCAD Expert</p>
+            <p className="text-[#1d1d1d]">Pagamento sem Mensalidades</p>
           </div>
 
           <div className="trust-item">
             {" "}
             <span className="icon">✓</span>
-            <p>Direito à Carteira Nacional Estudantil</p>
+            <p className="text-[#1d1d1d]">
+              Treinamento Mestre do AutoCAD Expert
+            </p>
+          </div>
+
+          <div className="trust-item">
+            {" "}
+            <span className="icon">✓</span>
+            <p className="text-[#1d1d1d]">
+              Direito à Carteira Nacional Estudantil
+            </p>
           </div>
         </div>
       </div>

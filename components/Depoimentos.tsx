@@ -3,7 +3,7 @@ const Depoimentos = () => {
   return (
     <section className="depoimentos" id="depoimentos">
       <div className="container flex-col justify-between">
-        <h2 className="text-2xl uppercase font-bold text-center my-20 mx-auto">
+        <h2 className="text-2xl uppercase font-bold text-center my-20 mx-auto text-[#ffffff]">
           Veja depoimentos de alunos que se tornaram Mestres do AutoCAD:
         </h2>
 

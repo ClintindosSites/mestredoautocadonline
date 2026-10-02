@@ -77,7 +77,7 @@ export default function PreCTA() {
         <div className="estatisticas-cta flex flex-wrap items-center justify-center">
           <div className="info-stats">
             <h3 className="text-[#ff0f57] text-6xl font-extrabold">94%</h3>
-            <p className="text-lg">
+            <p className="text-lg text-[#1d1d1d]">
               Afirmam que passaram a se{" "}
               <strong>destacar mais em entrevistas e no trabalho</strong> após
               aprender AutoCAD.
@@ -85,7 +85,7 @@ export default function PreCTA() {
           </div>
           <div className="info-stats">
             <h3 className="text-[#ff0f57] text-6xl font-extrabold">98%</h3>
-            <p className="text-lg">
+            <p className="text-lg text-[#1d1d1d]">
               Relatam se sentir mais <strong>confiantes e preparados</strong>{" "}
               para conquistar melhores oportunidades profissionais.
             </p>
@@ -93,7 +93,7 @@ export default function PreCTA() {
           <div className="info-stats">
             {" "}
             <h3 className="text-[#ff0f57] text-6xl font-extrabold">95%</h3>
-            <p className="text-lg">
+            <p className="text-lg text-[#1d1d1d]">
               Dos alunos consideram que o curso foi{" "}
               <strong>um dos melhores investimentos profissionais</strong> da
               sua vida.
@@ -102,7 +102,7 @@ export default function PreCTA() {
           <div className="info-stats">
             {" "}
             <h3 className="text-[#ff0f57] text-6xl font-extrabold">84%</h3>
-            <p className="text-lg">
+            <p className="text-lg text-[#1d1d1d]">
               Dizem que começaram a organizar melhor tarefas, dados e{" "}
               <strong>aumento da sua produtividade.</strong>
             </p>

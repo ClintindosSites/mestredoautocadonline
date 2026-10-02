@@ -3,6 +3,7 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Analytics from "@/components/Analytics";
 import PageTracker from "@/components/PageTracker";
+import Header from "@/components/Header";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -117,6 +118,7 @@ export default function RootLayout({
             alt=""
           />
         </noscript>
+        <Header />
         {children}
       </body>
     </html>

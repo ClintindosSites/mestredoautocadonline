@@ -27,16 +27,16 @@ export default function Professor() {
           />
         </div>
         <div className="text gap-2 flex flex-col">
-          <h2 className="text-4xl font-bold">
+          <h2 className="text-4xl font-bold text-[#ffffff]">
             Quem está por trás do seu aprendizado?
           </h2>
-          <p className="text-xl font-bold">
+          <p className="text-2xl font-bold text-[#ffffff]">
             Conheça o professor que vai{" "}
             <span className="text-[#ff0f57]">
               tranformar você em um Mestre do AutoCAD
             </span>
           </p>
-          <p>
+          <p className="text-[#ffffff] text-xl">
             O curso é oferecido pela{" "}
             <Link
               href={"https://go.hotmart.com/H101021157N?ap=4b22"}
@@ -52,7 +52,7 @@ export default function Professor() {
             </span>{" "}
             com acesso vitalício, área de membros e suporte ao aluno.
           </p>
-          <p>
+          <p className="text-[#ffffff] text-xl">
             E para conduzir você nesta jornada pelo AutoCAD, você terá aulas com
             Victor, engenheiro e{" "}
             <span className="text-[#ff0f57] font-bold">
@@ -60,7 +60,7 @@ export default function Professor() {
             </span>{" "}
             e outros softwares utilizados no mercado.
           </p>
-          <p>
+          <p className="text-[#ffffff] text-xl">
             Com uma metodologia direta, didática e focada na prática, Victor
             apresenta os conteúdos passo a passo e utiliza exercícios para
             <span className="text-[#ff0f57] font-bold">
@@ -72,7 +72,7 @@ export default function Professor() {
             Do primeiro comando ao{" "}
             <span className="text-[#ff0f57] font-bold"> do AutoCAD</span>
           </h3>
-          <p>
+          <p className="text-[#ffffff] text-xl">
             <span className="text-[#ff0f57] font-bold">
               {" "}
               A proposta do curso é levar você por uma jornada completa de
@@ -82,7 +82,7 @@ export default function Professor() {
             ferramentas que permitem desenvolver projetos com mais segurança e
             autonomia.
           </p>
-          <p>
+          <p className="text-[#ffffff] text-xl">
             É por isso que o{" "}
             <span className="text-[#ff0f57] font-bold">Mestre do AutoCAD </span>{" "}
             representa mais do que simplesmente aprender onde ficam as
@@ -92,7 +92,7 @@ export default function Professor() {
             </span>{" "}
             no uso do software.
           </p>
-          <p>
+          <p className="text-[#ffffff] text-xl">
             <span className="text-[#ff0f57] font-bold">
               {" "}
               Você aprende com Victor, através da estrutura e metodologia da
