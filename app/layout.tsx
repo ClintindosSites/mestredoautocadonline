@@ -17,12 +17,13 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://mestredoautocad.com.br"),
 
   title: {
-    default: "Mestre do AutoCAD | Cursos de AutoCAD, Revit, BIM e Mais",
+    default:
+      "Curso de AutoCAD 100% online com certificado e com acesso vitalício por apenas R$197",
     template: "%s | Mestre do AutoCAD",
   },
 
   description:
-    "Aprenda AutoCAD, Revit, BIM, SketchUp e outras ferramentas profissionais para arquitetura, engenharia e projetos. Encontre cursos online, materiais e conteúdos para evoluir profissionalmente.",
+    "Curso completo de AutoCAD do básico ao avançado. 30h, acesso vitalício, certificado reconhecido e suporte com professor por apenas R$197. Comece hoje mesmo e transforme-se em um Mestre do AutoCAD!",
 
   keywords: [
     "curso de AutoCAD",
@@ -38,6 +39,9 @@ export const metadata: Metadata = {
     "cursos para arquitetos",
     "como aprender autocad",
     "curso de autocad preço",
+    "como aprender autocad do zero",
+    "aprender autocad do zero",
+    "curso de autocad",
   ],
 
   authors: [
@@ -76,7 +80,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Mestre do AutoCAD | AutoCAD, Revit, BIM e Mais",
+    title: "Mestre do AutoCAD | Aprenda AutoCAD do Zero ao Avançado",
     description:
       "Aprenda ferramentas profissionais para arquitetura, engenharia e projetos.",
     images: ["/images/og-image.webp"],
