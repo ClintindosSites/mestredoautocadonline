@@ -103,8 +103,74 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
   const toc = getTableOfContents(post.content);
 
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+
+      headline: post.title,
+
+      description: post.description,
+
+      image: [`https://mestredoautocad.com.br${post.image}`],
+
+      datePublished: post.date,
+
+      dateModified: post.date,
+
+      author: {
+        "@type": "Person",
+        name: post.author,
+      },
+
+      publisher: {
+        "@type": "Organization",
+        name: "Mestre do AutoCAD",
+        url: "https://mestredoautocad.com.br",
+      },
+
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": `https://mestredoautocad.com.br/blog/${post.slug}`,
+      },
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Início",
+          item: "https://mestredoautocad.com.br/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Blog",
+          item: "https://mestredoautocad.com.br/blog",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: post.title,
+          item: `https://mestredoautocad.com.br/blog/${post.slug}`,
+        },
+      ],
+    },
+  ];
+
   return (
     <main className="bg-[#f5f5f5]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd),
+        }}
+      />
+
       <div className="mx-auto max-w-7xl px-6 py-12 lg:py-20">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,1fr)_320px]">
           <div className="min-w-0">
