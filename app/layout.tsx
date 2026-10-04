@@ -3,7 +3,6 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Analytics from "@/components/Analytics";
 import PageTracker from "@/components/PageTracker";
-import Header from "@/components/Header";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -42,6 +41,7 @@ export const metadata: Metadata = {
     "como aprender autocad do zero",
     "aprender autocad do zero",
     "curso de autocad",
+    "autocad para iniciantes",
   ],
 
   authors: [
@@ -122,7 +122,7 @@ export default function RootLayout({
             alt=""
           />
         </noscript>
-        <Header />
+
         {children}
       </body>
     </html>

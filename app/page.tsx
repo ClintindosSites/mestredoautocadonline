@@ -11,11 +11,13 @@ import Checkout from "../components/Checkout";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 import Apresentation from "@/components/Apresentation";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
     <>
       {" "}
+      <Header />
       <Hero />;
       <Apresentation />;
       <Estrutura />

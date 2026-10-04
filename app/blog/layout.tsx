@@ -21,7 +21,8 @@ export default function BlogLayout({
   return (
     <div className="blog-layout">
       <Analytics />
-      <PageTracker /> <BlogHeader />
+      <PageTracker />
+      <BlogHeader />
       {children}
       <Footer />
     </div>
