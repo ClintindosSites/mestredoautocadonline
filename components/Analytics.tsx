@@ -7,7 +7,7 @@ export default function Analytics() {
     <>
       {/* Google Tag Analytics */}
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=AW-18490605644"
+        src="https://www.googletagmanager.com/gtag/js?id=G-HWXYCWFKX0"
         strategy="afterInteractive"
       />
 
@@ -30,6 +30,11 @@ export default function Analytics() {
     
         `}
       </Script>
+
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=AW-18490605644"
+        strategy="afterInteractive"
+      />
       <Script id="google-tag" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
@@ -42,7 +47,7 @@ export default function Analytics() {
 
           gtag('js', new Date());
 
-          // Google Tag
+          // Google 
           gtag('config', 'AW-18490605644');
      
 
