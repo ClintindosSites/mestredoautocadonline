@@ -5,7 +5,7 @@ import Script from "next/script";
 export default function Analytics() {
   return (
     <>
-      {/* Google Tag */}
+      {/* Google Tag Analytics */}
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-HWXYCWFKX0"
         strategy="afterInteractive"
@@ -25,6 +25,25 @@ export default function Analytics() {
 
           // GA4
           gtag('config', 'G-HWXYCWFKX0');
+     
+
+    
+        `}
+      </Script>
+      <Script id="google-tag" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+
+          function gtag(){
+            dataLayer.push(arguments);
+          }
+
+          window.gtag = gtag;
+
+          gtag('js', new Date());
+
+          // Google Tag
+          gtag('config', 'AW-18490605644');
      
 
     
