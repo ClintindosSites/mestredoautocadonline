@@ -39,7 +39,7 @@ export default function Hero() {
             className="btn-primary"
             onClick={handleCheckoutClick}
           >
-            Quero me tornar um Mestre do AutoCAD
+            Comprar curso agora por apenas R$197
           </Link>
           <div className="hero-stats">
             <div className="hero-stat">
