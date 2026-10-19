@@ -76,8 +76,8 @@ const Apresentation = () => {
           <Image
             src="/images/mestreautocad3d.webp"
             alt="Avatar do Mestre do AutoCAD, curso de AutoCAD online"
-            width={1024}
-            height={1536}
+            width={400}
+            height={600}
             className="mestre w-150 h-full"
             sizes="(max-width: 768px) 100vw, 600px"
             fetchPriority="high"

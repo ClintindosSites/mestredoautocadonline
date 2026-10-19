@@ -21,8 +21,8 @@ export default function Garantia() {
         <div className="garantia-img">
           <Image
             src={"/images/garantia.webp"}
-            width={411}
-            height={324}
+            width={460}
+            height={307}
             className="w-150 h-full"
             fetchPriority="high"
             loading="eager"
