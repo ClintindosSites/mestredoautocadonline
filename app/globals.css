@@ -164,7 +164,7 @@ body {
   justify-content: space-between;
 }
 .know-item {
-  background-image: url("/images/bg-autocad.webp");
+  /*background-image: url("/images/bg-autocad.webp");*/
   background-size: cover;
   max-width: 500px;
   width: 100%;
