@@ -54,7 +54,7 @@ const Apresentation = () => {
             área de membros exclusiva para tirar todas as duvidas diretamente
             com o professor{" "}
             <a
-              href="https://go.hotmart.com/H101021157N"
+              href="https://go.hotmart.com/H101021157N?ap=4b22"
               onClick={handleCheckoutClick}
             >
               <strong>VICTOR BRIENCE</strong>
@@ -63,7 +63,7 @@ const Apresentation = () => {
             <strong>certificado reconhecido</strong> de capacitação profissional
             da escola{" "}
             <a
-              href="https://go.hotmart.com/H101021157N"
+              href="https://go.hotmart.com/H101021157N?ap=4b22"
               onClick={handleCheckoutClick}
             >
               <strong>Expert Cursos</strong>
