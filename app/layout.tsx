@@ -42,6 +42,10 @@ export const metadata: Metadata = {
     "aprender autocad do zero",
     "curso de autocad",
     "autocad para iniciantes",
+    "autocad passo a passo para iniciantes",
+    "dicas de autocad",
+    "principais comandos do autocad",
+    "autocad arquitetura",
   ],
 
   authors: [
