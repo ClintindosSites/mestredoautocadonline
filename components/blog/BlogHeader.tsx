@@ -26,7 +26,7 @@ const BlogHeader = () => {
               href="/"
               className="text-sm font-medium text-gray-300 hover:text-white transition-colors"
             >
-              Início
+              Curso de AutoCAD
             </Link>
 
             <Link
