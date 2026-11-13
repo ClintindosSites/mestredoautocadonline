@@ -35,14 +35,14 @@ const cards = [
 
 export default function Candidatos() {
   return (
-    <section className="candidatos bg-[]">
-      <div className="container">
-        <div className="text">
+    <section className="candidatos">
+      <div className="container flex-col py-10">
+        <div className="text text-center p-7">
           <h2 className="text-4xl font-bold uppercase">
             Você se identifica com alguma dessas situações?
           </h2>
-          <p>
-            Se você respondeu {"sim"} a qualquer uma delas, esse curso foi feito
+          <p className="text-gray-400 text-xl">
+            Se você respondeu {"SIM"} a qualquer uma delas, esse curso foi feito
             para você.
           </p>
         </div>

@@ -15,22 +15,25 @@ export default function PriceSection() {
   };
 
   return (
-    <section className="bg-[#0d0d0d] py-16 md:py-20" id="price">
+    <section
+      className="bg-[url(/images/bg-autocad.webp)] bg-fixed bg-cover py-16 md:py-20"
+      id="price"
+    >
       <div className="container mx-auto px-4">
         {/* CABEÇALHO */}
-        <header className="mb-10 text-center">
-          <h2 className="text-2xl font-extrabold uppercase text-white md:text-4xl">
-            Invista no Seu Futuro Profissional
-          </h2>
-
-          <p className="mt-3 text-base text-slate-400 md:text-lg">
-            Pagamento único, sem mensalidades. Acesso vitalício a todo o
-            conteúdo.
-          </p>
-        </header>
 
         {/* CARD DE PREÇO */}
         <div className="mx-auto flex w-full max-w-130 flex-col items-center gap-5 rounded-2xl border border-[#393939] bg-[#1f1f1f] p-6 text-center shadow-2xl md:p-10">
+          <header className="mb-10 text-center">
+            <h2 className="text-2xl font-extrabold uppercase text-white md:text-4xl">
+              Invista no Seu Futuro Profissional
+            </h2>
+
+            <p className="mt-3 text-base text-slate-400 md:text-lg">
+              Pagamento único, sem mensalidades. Acesso vitalício a todo o
+              conteúdo.
+            </p>
+          </header>
           {/* PREÇO ANTIGO */}
           <span className="text-lg text-slate-400 line-through">
             de R$ 597,00

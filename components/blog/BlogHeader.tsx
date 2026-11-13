@@ -35,20 +35,6 @@ const BlogHeader = () => {
             >
               Blog
             </Link>
-
-            <Link
-              href="/blog/autocad"
-              className="text-sm font-medium text-gray-300 hover:text-white transition-colors"
-            >
-              AutoCAD
-            </Link>
-
-            <Link
-              href="/blog/tutorials"
-              className="text-sm font-medium text-gray-300 hover:text-white transition-colors"
-            >
-              Tutoriais
-            </Link>
           </nav>
 
           {/* CTA */}
