@@ -87,6 +87,7 @@ body {
   color: #fff;
 }
 /* ===== TRUST BAR ===== */
+
 .trust-bar {
   margin-top: 60px;
   background: #fff;
@@ -103,11 +104,11 @@ body {
 .trust-item {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 1px;
   color: #1d1d1d;
-
-  font-weight: 700;
-  font-size: 1.1rem;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 1rem;
 }
 .trust-item .icon {
   width: 20px;
@@ -140,6 +141,10 @@ body {
   width: min(400px, 90vw);
   height: auto;
   display: block;
+}
+.candidatos {
+  background-color: #ffffff;
+  color: #0d0d0d;
 }
 .estrutura {
   background-color: #ffffff;
@@ -200,14 +205,13 @@ body {
   text-align: center;
 }
 .comandos-cta {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
-  justify-content: center;
-  align-items: center;
-
+  text-align: left;
   margin: 20px auto;
 }
+
 .comandos-cta .trust-item {
   gap: 1rem;
 }
@@ -622,6 +626,157 @@ body {
   color: #c2325d;
 }
 
+/* CABEÇALHO */
+.estrutura-header {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.estrutura-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0d0d0d;
+}
+
+.estrutura-header h2 span,
+.estrutura-header strong {
+  color: #ff0f57;
+}
+
+.estrutura-header p {
+  font-size: 1.4rem;
+  color: #0d0d0d;
+}
+
+/* GRID DOS MÓDULOS */
+.know-items {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+/* CARD */
+.curriculum-card {
+  background: #1f1f1f;
+  padding: 20px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+
+  color: #fff;
+  min-width: 0;
+  width: 100%;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+/* TÍTULO DO CARD */
+.curriculum-card-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.curriculum-card-title h3 {
+  color: #c2325d;
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.3;
+}
+
+/* NUMERAÇÃO */
+.curriculum-number {
+  background: #ff0f57;
+  color: #fff;
+
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* DESCRIÇÃO */
+.curriculum-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: inherit;
+}
+
+/* HOVER */
+.curriculum-card:hover {
+  background: #e2e8f0;
+  color: #0d0d0d;
+  border-color: #ff0f57;
+  transform: translateY(-3px);
+}
+
+/* RODAPÉ */
+.estrutura-footer {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.estrutura-footer p {
+  font-size: 1.1rem;
+  color: #1d1d1d;
+  margin-bottom: 10px;
+}
+
+.estrutura-footer .btn-primary {
+  display: inline-block;
+  margin-top: 25px;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+  .know-items {
+    grid-template-columns: 1fr;
+  }
+
+  .estrutura-header {
+    padding: 40px 0;
+  }
+
+  .estrutura-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .estrutura-header p {
+    font-size: 1.1rem;
+  }
+
+  .curriculum-card {
+    padding: 18px;
+  }
+
+  .curriculum-card-title h3 {
+    font-size: 1rem;
+  }
+
+  .estrutura-footer {
+    margin-top: 40px;
+  }
+}
+
 /* =========================
    MOBILE
 ========================= */
@@ -730,6 +885,9 @@ body {
   }
   .comandos-cta .trust-item {
     width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
   }
   .bonus .container {
     justify-content: center;

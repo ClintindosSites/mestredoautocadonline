@@ -26,7 +26,7 @@ export default function Bonus() {
             sizes="(max-width: 768px) 100vw, 480px"
             alt="Mestre do AutoCAD oferece 5 aulas bônus"
           />
-          <h2 className="text-3xl font-extrabold text-[#ffffff]">
+          <h2 className="text-2xl font-extrabold text-[#ffffff]">
             Além de todo o Conteúdo do curso, <br /> o{" "}
             <span className="text-[#ff0f57]">Mestre do Autocad</span> vai te
             entregar
@@ -38,7 +38,7 @@ export default function Bonus() {
           </h2>
         </div>
         <div className="bonus-box">
-          <div className="bonus-imgs flex gap-20 justify-center items-center">
+          <div className="bonus-imgs flex flex-wrap gap-20 justify-center items-center">
             <div className="bonus-infos">
               <Image
                 src={"/images/projeto-autocad-1.webp"}
@@ -107,7 +107,7 @@ export default function Bonus() {
 
           <Link
             href={"https://go.hotmart.com/H101021157N?ap=4b22"}
-            className="btn-primary"
+            className="btn-primary hover:-translate-y-1"
             id="bonus-btn"
             onClick={handlCheckoutClick}
           >
@@ -220,7 +220,7 @@ export default function Bonus() {
             />
             <Link
               href={"https://go.hotmart.com/H101021157N?ap=4b22"}
-              className="btn-primary"
+              className="btn-primary hover:-translate-y-1"
               id="checkout-bonus-btn"
               onClick={handlCheckoutClick}
             >

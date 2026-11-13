@@ -135,7 +135,7 @@ export default function FAQ() {
 
           <a
             href="https://go.hotmart.com/H101021157N?ap=4b22"
-            className="faq-button"
+            className="faq-button hover:-translate-y-1"
             onClick={handleCheckoutClick}
           >
             QUERO COMEÇAR AGORA

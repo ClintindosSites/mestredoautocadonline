@@ -27,48 +27,49 @@ export default function PreCTA() {
 
           <Link
             href={"https://go.hotmart.com/H101021157N?ap=4b22"}
-            className="btn-primary"
+            className="btn-primary hover:-translate-y-1"
             onClick={handleCheckoutClick}
           >
             Quero me tornar um Mestre do AutoCAD
           </Link>
         </div>
 
-        <div className="comandos-cta">
+        <div className="comandos-cta ">
           <div className="trust-item">
-            {" "}
             <span className="icon">✓</span>{" "}
-            <p className="text-lg font-bold text-[#ff0f57] uppercase">
-              Desenho Técnico
+            <p className="text-lg  text-[#ff0f57] uppercase font-semibold underline">
+              +1000 blocos em 2D e 3D disponíveis gratuitamente
             </p>
           </div>
           <div className="trust-item">
+            {" "}
+            <span className="icon">✓</span>{" "}
+            <p className="text-lg  text-[#ff0f57] uppercase font-semibold">
+              Desenho Técnico
+            </p>
+          </div>
+          <div className="trust-item =">
             <span className="icon">✓</span>
-            <p className="text-lg font-bold text-[#ff0f57] uppercase">
+            <p className="text-lg  text-[#ff0f57] uppercase font-semibold">
               Planta Baixas
             </p>
           </div>
           <div className="trust-item">
             <span className="icon">✓</span>{" "}
-            <p className="text-lg font-bold text-[#ff0f57] uppercase">
+            <p className="text-lg  text-[#ff0f57] uppercase font-semibold">
               Peças Mecânicas
             </p>
           </div>
           <div className="trust-item">
             <span className="icon">✓</span>
-            <p className="text-lg font-bold text-[#ff0f57] uppercase">
+            <p className="text-lg  text-[#ff0f57] uppercase font-semibold">
               Elétrica e Hidráulica
             </p>
           </div>
-          <div className="trust-item">
-            <span className="icon">✓</span>{" "}
-            <p className="text-lg font-bold text-[#ff0f57] uppercase underline">
-              +1000 blocos em 2D e 3D disponíveis gratuitamente
-            </p>
-          </div>
+
           <div className="trust-item">
             <span className="icon">✓</span>
-            <p className="text-lg font-bold text-[#ff0f57] uppercase">
+            <p className="text-lg  text-[#ff0f57] uppercase font-semibold">
               E muito mais...
             </p>
           </div>

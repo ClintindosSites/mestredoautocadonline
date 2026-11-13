@@ -53,6 +53,7 @@ const Footer = () => {
               href="https://go.hotmart.com/H101021157N?ap=4b22"
               target="_blank"
               rel="noopener noreferrer"
+              className="hover:-translate-y-1"
               onClick={handleCheckoutClick}
             >
               Comprar o Curso

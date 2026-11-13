@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Hero() {
@@ -36,7 +35,7 @@ export default function Hero() {
           </p>
           <Link
             href={"https://go.hotmart.com/H101021157N?ap=4b22"}
-            className="btn-primary"
+            className="btn-primary hover:-translate-y-1"
             onClick={handleCheckoutClick}
           >
             Comprar curso agora por apenas R$197

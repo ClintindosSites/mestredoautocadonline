@@ -85,7 +85,7 @@ const Apresentation = () => {
           />
           <Link
             href={"https://go.hotmart.com/H101021157N?ap=4b22"}
-            className="btn-primary"
+            className="btn-primary hover:-translate-y-1"
             onClick={handleCheckoutClick}
           >
             Torne-se um mestre do autocad por apenas R$197

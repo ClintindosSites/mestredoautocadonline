@@ -12,6 +12,9 @@ import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 import Apresentation from "@/components/Apresentation";
 import Header from "@/components/Header";
+import Candidatos from "@/components/Candidatos";
+import Solution from "@/components/Solution";
+import PriceSection from "@/components/PriceSection";
 
 export default function Home() {
   return (
@@ -20,7 +23,10 @@ export default function Home() {
       <Header />
       <Hero />;
       <Apresentation />;
+      <Candidatos />
+      <Solution />
       <Estrutura />
+      <PriceSection />
       <Certificado />
       <PreCTA />
       <Bonus />

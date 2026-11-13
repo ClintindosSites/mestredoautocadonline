@@ -55,7 +55,7 @@ export default function CheckoutFinal() {
           </div>
           <Link
             href={"https://go.hotmart.com/H101021157N?ap=4b22"}
-            className="btn-primary"
+            className="btn-primary hover:-translate-y-1"
             id="checkout-final-btn"
             onClick={handleCheckoutClick}
           >
