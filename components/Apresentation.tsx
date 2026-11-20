@@ -8,7 +8,7 @@ const Apresentation = () => {
     //tag ga4
     window.gtag?.("event", "begin_checkout", {
       product: "curso_autocad",
-      source: "mestredoautocad",
+      source: "mestredaarquitetura",
     });
 
     // meta
@@ -21,7 +21,7 @@ const Apresentation = () => {
           <h2 className="text-3xl text-[#ffffff]">
             <span className="text-[#ff0f57] font-bold text-4xl">
               Transforme-se em um Mestre da Arquitetura certificado
-            </span>{" "}
+            </span>
             <br />e ganhe destaque e autoridade no mercado.
           </h2>
           <p className="text-lg text-[#ffffff]">

@@ -10,6 +10,7 @@ import BlogSidebar from "@/components/blog/BlogSidebar";
 import RelatedPosts from "@/components/blog/RelatedPosts";
 import TableOfContents from "@/components/blog/TableOfContents";
 import { mdxComponents } from "@/components/blog/MDXComponents";
+import AutodeskDisclaimer from "@/components/AutodeskDisclaimer";
 
 interface BlogPostPageProps {
   params: Promise<{ slug: string }>;
@@ -211,6 +212,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               <div className="prose prose-lg max-w-none text-[#141414]">
                 <MDXRemote source={post.content} components={mdxComponents} />
               </div>
+              {/(autodesk|autocad|revit|fusion 360|civil 3d|3ds max|inventor)/i.test(
+                `${post.title} ${post.description} ${post.content}`
+              ) && <AutodeskDisclaimer />}
             </article>
 
             <RelatedPosts

@@ -15,19 +15,17 @@ export default function BlogPage() {
         <div className="blog-hero-overlay" />
 
         <div className="blog-hero-content">
-          <span className="blog-label">BLOG MESTRE DO AUTOCAD</span>
-
+          <span className="blog-label">BLOG DO MESTRE DA ARQUITETURA</span>
           <h1>
-            Aprenda AutoCAD.
+            Conheça os melhores cursos de Arquitetura e Engenharia
             <br />
-            <strong>Crie. Evolua. Domine.</strong>
-          </h1>
-
+            <strong>E domine as principais ferramentas do mercado</strong>.
+          </h1>{" "}
           <p>
-            Tutoriais, dicas e conteúdos práticos para você aprender AutoCAD e
-            desenvolver projetos com mais segurança.
+            Cursos, dicas e conteúdos práticos para você aprender as principais
+            ferramentas de Engenharia e Arquitetura e se tornar um Mestre da
+            Arquitetura
           </p>
-
           <div className="blog-search">
             <span>⌕</span>
 

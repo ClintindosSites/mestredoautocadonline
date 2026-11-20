@@ -1009,7 +1009,7 @@ body {
   position: relative;
   z-index: 2;
 
-  width: min(850px, 100%);
+  width: max(1200px, 100%);
   padding: 100px 20px 80px;
 }
 

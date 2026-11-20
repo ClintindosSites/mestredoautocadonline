@@ -6,8 +6,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    default: "Blog Mestre do AutoCAD",
-    template: "%s | Mestre do AutoCAD",
+    default: "Blog Mestre da Arquitetura",
+    template: "%s | Mestre da Arquitetura",
   },
   description:
     "Dicas, tutoriais e conteúdos para aprender AutoCAD e desenvolver suas habilidades em projetos.",

@@ -16,7 +16,7 @@ const Header = () => {
             </span>
 
             <span className="text-xs md:text-sm font-bold tracking-[0.2em] text-[#ff0f57]">
-              DO AUTOCAD
+              DA ARQUITETURA
             </span>
           </Link>
 

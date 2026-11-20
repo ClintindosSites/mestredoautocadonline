@@ -14,8 +14,8 @@ export default function Footer() {
               href="/"
               className="inline-block text-2xl font-extrabold tracking-tight"
             >
-              <span className="text-white">Mestre do</span>{" "}
-              <span className="text-[#ff0f57]">AutoCAD</span>
+              <span className="text-white">Mestre da</span>{" "}
+              <span className="text-[#ff0f57]">Arquitetura</span>
             </Link>
 
             <p className="mt-5 max-w-xl text-sm leading-7 text-gray-400">

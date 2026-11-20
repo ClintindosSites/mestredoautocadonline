@@ -15,6 +15,7 @@ import Header from "@/components/Header";
 import Candidatos from "@/components/Candidatos";
 import Solution from "@/components/Solution";
 import PriceSection from "@/components/PriceSection";
+import AutodeskDisclaimer from "@/components/AutodeskDisclaimer";
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
       <Garantia />
       <Checkout />
       <FAQ />
+      <AutodeskDisclaimer />
       <Footer />
     </>
   );

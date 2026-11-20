@@ -13,12 +13,11 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mestredoautocad.com.br"),
+  metadataBase: new URL("https://mestredaarquitetura.com.br"),
 
   title: {
-    default:
-      "Curso de AutoCAD 100% online com certificado e com acesso vitalício por apenas R$197",
-    template: "%s | Mestre do AutoCAD",
+    default: "Domine as principais ferramentas da Arquitetura e Engenharia ",
+    template: "%s | Mestre da Arquitetura",
   },
 
   description:
@@ -50,26 +49,26 @@ export const metadata: Metadata = {
 
   authors: [
     {
-      name: "Mestre do AutoCAD",
-      url: "https://mestredoautocad.com.br",
+      name: "Mestre da Arquitetura",
+      url: "https://mestredaarquitetura.com.br",
     },
   ],
 
-  creator: "Mestre do AutoCAD",
-  publisher: "Mestre do AutoCAD",
+  creator: "Mestre da Arquitetura",
+  publisher: "Mestre da Arquitetura",
 
   category: "Education",
 
   alternates: {
-    canonical: "https://mestredoautocad.com.br",
+    canonical: "https://mestredaarquitetura.com.br",
   },
 
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://mestredoautocad.com.br",
-    siteName: "Mestre do AutoCAD",
-    title: "Mestre do AutoCAD | Cursos de AutoCAD, Revit, BIM e Mais",
+    url: "https://mestredaarquitetura.com.br",
+    siteName: "Mestre da Arquitetura",
+    title: "Mestre da Arquitetura | Cursos de AutoCAD, Revit, BIM e Mais",
     description:
       "Cursos, materiais e conteúdos para quem quer aprender AutoCAD, Revit, BIM, SketchUp e evoluir na área de arquitetura, engenharia e projetos.",
     images: [
@@ -77,14 +76,14 @@ export const metadata: Metadata = {
         url: "/images/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "Mestre do AutoCAD - Cursos e conteúdos profissionais",
+        alt: "Mestre da Arquitetura - Cursos e conteúdos profissionais",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Mestre do AutoCAD | Aprenda AutoCAD do Zero ao Avançado",
+    title: "Mestre da Arquitetura | Aprenda AutoCAD do Zero ao Avançado",
     description:
       "Aprenda ferramentas profissionais para arquitetura, engenharia e projetos.",
     images: ["/images/og-image.webp"],

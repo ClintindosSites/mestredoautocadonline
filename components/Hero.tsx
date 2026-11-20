@@ -7,7 +7,7 @@ export default function Hero() {
     // GA4
     window.gtag?.("event", "hero_checkout", {
       product: "curso_autocad",
-      source: "mestredoautocad",
+      source: "mestredaarquitetura",
     });
 
     // Meta
