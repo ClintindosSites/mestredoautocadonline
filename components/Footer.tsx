@@ -64,7 +64,7 @@ const Footer = () => {
           <div className="footer-column">
             <h3>Conteúdos</h3>
 
-            <Link href="/blog">Blog Mestre do AutoCAD</Link>
+            <Link href="/blog">Blog Mestre da Arquitetura</Link>
 
             <Link href="/blog/autocad">Dicas de AutoCAD</Link>
 
@@ -111,8 +111,8 @@ const Footer = () => {
         {/* RODAPÉ INFERIOR */}
         <div className="footer-bottom">
           <p>
-            © {new Date().getFullYear()} Mestre do AutoCAD. Todos os direitos
-            reservados.
+            © {new Date().getFullYear()} Mestre da Arquitetura. Todos os
+            direitos reservados.
           </p>
 
           <div className="footer-links">

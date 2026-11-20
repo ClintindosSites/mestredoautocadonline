@@ -88,7 +88,7 @@ export default function Estrutura() {
 
           <p>
             Veja o que você vai aprender para se tornar o{" "}
-            <strong>Mestre do AutoCAD:</strong>
+            <strong>Mestre da Arquitetura:</strong>
           </p>
         </header>
 
@@ -118,7 +118,7 @@ export default function Estrutura() {
             className="btn-primary hover:-translate-y-1"
             onClick={handleCheckoutClick}
           >
-            Torne-se um mestre do AutoCAD com acesso vitalício
+            Torne-se um Mestre da Arquitetura com acesso vitalício
           </Link>
         </div>
       </div>

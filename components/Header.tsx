@@ -9,7 +9,7 @@ const Header = () => {
           <Link
             href="/"
             className="flex flex-col leading-none shrink-0"
-            aria-label="Mestre do AutoCAD - Blog"
+            aria-label="Mestre da Arquitetura - Blog"
           >
             <span className="text-xl md:text-2xl font-black tracking-tight text-white">
               MESTRE

@@ -30,7 +30,7 @@ export default function PreCTA() {
             className="btn-primary hover:-translate-y-1"
             onClick={handleCheckoutClick}
           >
-            Quero me tornar um Mestre do AutoCAD
+            Quero me tornar um Mestre da Arquitetura
           </Link>
         </div>
 

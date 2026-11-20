@@ -248,7 +248,7 @@ const RelatedPosts = ({
                 ) : (
                   <div className="flex aspect-[16/9] items-center justify-center bg-gray-100">
                     <span className="text-sm font-medium text-gray-400">
-                      Mestre do AutoCAD
+                      Mestre da Arquitetura
                     </span>
                   </div>
                 )}

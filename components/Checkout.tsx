@@ -20,7 +20,7 @@ export default function CheckoutFinal() {
         <div className="price flex flex-col items-center justify-center bg-[#111111] rounded-3xl max-w-200">
           <div className="price-title border-b-4 border-[#ff0f57] w-full h-50 text-center items-center flex justify-center uppercase mb-10">
             <h3 className="text-xl font-bold text-[#ffffff]">
-              Ingresse nessa jornada para ser um mestre do autocad
+              Ingresse nessa jornada para ser um Mestre da Arquitetura
             </h3>
           </div>
           <p className="text-4xl text-[#ffffff]">
@@ -50,7 +50,7 @@ export default function CheckoutFinal() {
               className="w-200 h-full"
               loading="eager"
               fetchPriority="high"
-              alt="Clique e adquira agora o bonus do mestre do autocad"
+              alt="Clique e adquira agora o bonus do Mestre da Arquitetura"
             />
           </div>
           <Link
@@ -152,7 +152,7 @@ export default function CheckoutFinal() {
             {" "}
             <span className="icon">✓</span>
             <p className="text-[#1d1d1d]">
-              Treinamento Mestre do AutoCAD Expert
+              Treinamento Mestre da Arquitetura Expert
             </p>
           </div>
 

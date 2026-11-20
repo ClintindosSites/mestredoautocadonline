@@ -20,7 +20,7 @@ const Apresentation = () => {
         <div className="intro-text gap-2">
           <h2 className="text-3xl text-[#ffffff]">
             <span className="text-[#ff0f57] font-bold text-4xl">
-              Transforme-se em um Mestre do AutoCAD certificado
+              Transforme-se em um Mestre da Arquitetura certificado
             </span>{" "}
             <br />e ganhe destaque e autoridade no mercado.
           </h2>
@@ -69,13 +69,13 @@ const Apresentation = () => {
               <strong>Expert Cursos</strong>
             </a>
             , que vai te formar um{" "}
-            <strong className="text-[#ff0f57] ">Mestre do AutoCAD</strong>.
+            <strong className="text-[#ff0f57] ">Mestre da Arquitetura</strong>.
           </p>
         </div>
         <div className="intro-img">
           <Image
             src="/images/mestreautocad3d.webp"
-            alt="Avatar do Mestre do AutoCAD, curso de AutoCAD online"
+            alt="Avatar do Mestre da Arquitetura, curso de AutoCAD online"
             width={400}
             height={600}
             className="mestre w-150 h-full"
@@ -88,7 +88,7 @@ const Apresentation = () => {
             className="btn-primary hover:-translate-y-1"
             onClick={handleCheckoutClick}
           >
-            Torne-se um mestre do autocad por apenas R$197
+            Torne-se um Mestre da Arquitetura por apenas R$197
           </Link>
         </div>
       </div>

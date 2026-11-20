@@ -155,7 +155,7 @@ export default function Footer() {
       {/* Copyright */}
       <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-6 lg:px-8 md:flex-row md:items-center md:justify-between">
         <p className="text-xs text-gray-500">
-          © {currentYear} Mestre do AutoCAD. Todos os direitos reservados.
+          © {currentYear} Mestre da Arquitetura. Todos os direitos reservados.
         </p>
 
         <div className="flex flex-wrap gap-5">

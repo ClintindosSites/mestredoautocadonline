@@ -16,7 +16,7 @@ const Depoimentos = () => {
               className="w-62.5 h-auto"
               fetchPriority="high"
               loading="eager"
-              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
+              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre da Arquitetura"
             />
           </div>
           <div className="depoimento-img">
@@ -27,7 +27,7 @@ const Depoimentos = () => {
               className="w-62.5 h-auto"
               fetchPriority="high"
               loading="eager"
-              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
+              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre da Arquitetura"
             />
           </div>
           <div className="depoimento-img">
@@ -38,7 +38,7 @@ const Depoimentos = () => {
               className="w-62.5 h-auto"
               fetchPriority="high"
               loading="eager"
-              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
+              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre da Arquitetura"
             />
           </div>
           <div className="depoimento-img">
@@ -49,7 +49,7 @@ const Depoimentos = () => {
               className="w-62.5 h-auto"
               fetchPriority="high"
               loading="eager"
-              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
+              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre da Arquitetura"
             />
           </div>
           <div className="depoimento-img">
@@ -60,7 +60,7 @@ const Depoimentos = () => {
               className="w-62.5 h-auto"
               fetchPriority="high"
               loading="eager"
-              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
+              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre da Arquitetura"
             />
           </div>
           <div className="depoimento-img">
@@ -71,7 +71,7 @@ const Depoimentos = () => {
               className="w-62.5 h-auto"
               fetchPriority="high"
               loading="eager"
-              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
+              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre da Arquitetura"
             />
           </div>
           <div className="depoimento-img">
@@ -82,7 +82,7 @@ const Depoimentos = () => {
               className="w-62.5 h-auto"
               fetchPriority="high"
               loading="eager"
-              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
+              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre da Arquitetura"
             />
           </div>
           <div className="depoimento-img">
@@ -93,7 +93,7 @@ const Depoimentos = () => {
               className="w-62.5 h-auto"
               fetchPriority="high"
               loading="eager"
-              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
+              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre da Arquitetura"
             />
           </div>
           <div className="depoimento-img">
@@ -104,7 +104,7 @@ const Depoimentos = () => {
               className="w-62.5 h-auto"
               fetchPriority="high"
               loading="eager"
-              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
+              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre da Arquitetura"
             />
           </div>
           <div className="depoimento-img">
@@ -115,7 +115,7 @@ const Depoimentos = () => {
               className="w-62.5 h-auto"
               fetchPriority="high"
               loading="eager"
-              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
+              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre da Arquitetura"
             />
           </div>
           <div className="depoimento-img">
@@ -126,7 +126,7 @@ const Depoimentos = () => {
               className="w-62.5 h-auto"
               fetchPriority="high"
               loading="eager"
-              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre do Autocad"
+              alt="Depoimento de aluno que fez o curso de AutoCAD e se tornou um Mestre da Arquitetura"
             />
           </div>
         </div>

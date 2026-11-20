@@ -9,14 +9,14 @@ const BlogHeader = () => {
           <Link
             href="/blog"
             className="flex flex-col leading-none shrink-0"
-            aria-label="Mestre do AutoCAD - Blog"
+            aria-label="Mestre da Arquitetura - Blog"
           >
             <span className="text-xl md:text-2xl font-black tracking-tight text-white">
               MESTRE
             </span>
 
             <span className="text-xs md:text-sm font-bold tracking-[0.2em] text-[#ff0f57]">
-              DO AUTOCAD
+              DA ARQUITETURA
             </span>
           </Link>
 

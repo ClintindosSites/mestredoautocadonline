@@ -24,11 +24,11 @@ export default function Bonus() {
             height={1183}
             className="w-120 h-full"
             sizes="(max-width: 768px) 100vw, 480px"
-            alt="Mestre do AutoCAD oferece 5 aulas bônus"
+            alt="Mestre da Arquitetura oferece 5 aulas bônus"
           />
           <h2 className="text-2xl font-extrabold text-[#ffffff]">
             Além de todo o Conteúdo do curso, <br /> o{" "}
-            <span className="text-[#ff0f57]">Mestre do Autocad</span> vai te
+            <span className="text-[#ff0f57]">Mestre da Arquitetura</span> vai te
             entregar
             <br />{" "}
             <strong className="text-[#ff0f57]">
@@ -216,7 +216,7 @@ export default function Bonus() {
               height={991}
               className="w-auto h-full"
               sizes="(max-width: 768px) 100vw, 600px"
-              alt="Oferta de bônus do Mestre do AutoCAD"
+              alt="Oferta de bônus do Mestre da Arquitetura"
             />
             <Link
               href={"https://go.hotmart.com/H101021157N?ap=4b22"}
@@ -224,7 +224,7 @@ export default function Bonus() {
               id="checkout-bonus-btn"
               onClick={handlCheckoutClick}
             >
-              Compre agora e torne-se um Mestre do AutoCAD
+              Compre agora e torne-se um Mestre da Arquitetura
             </Link>
             <Image
               src={"/images/metodos-pagamento.webp"}

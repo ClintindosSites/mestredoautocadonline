@@ -94,7 +94,7 @@ export default function FAQ() {
 
           <p className="text-xl text-[#fffff]">
             Ainda ficou com alguma dúvida? Confira as respostas para as
-            principais perguntas sobre o curso Mestre do AutoCAD.
+            principais perguntas sobre o curso Mestre da Arquitetura.
           </p>
         </div>
 
@@ -131,7 +131,9 @@ export default function FAQ() {
         <div className="faq-cta">
           <h3>Pronto para dominar o AutoCAD?</h3>
 
-          <p>Comece agora sua jornada para se tornar um Mestre do AutoCAD.</p>
+          <p>
+            Comece agora sua jornada para se tornar um Mestre da Arquitetura.
+          </p>
 
           <a
             href="https://go.hotmart.com/H101021157N?ap=4b22"

@@ -24,11 +24,11 @@ const LegalPage = ({ title, updatedAt, intro, sections }: LegalPageProps) => {
             href="/"
             className="inline-block text-sm text-[#ff0f57] font-semibold mb-8 hover:opacity-80 transition"
           >
-            ← Voltar para o Mestre do AutoCAD
+            ← Voltar para o Mestre da Arquitetura
           </Link>
 
           <p className="text-sm uppercase tracking-widest text-[#ff0f57] font-bold mb-4">
-            Mestre do AutoCAD
+            Mestre da Arquitetura
           </p>
 
           <h1 className="text-4xl md:text-5xl font-bold mb-6">{title}</h1>

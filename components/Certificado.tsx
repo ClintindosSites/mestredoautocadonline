@@ -31,7 +31,7 @@ export default function Certificado() {
         <div className="certificado-row flex flex-col text-center items-center">
           <div className="text">
             <h2 className="text-[#ff0f57] font-bold text-4xl">
-              Seja um Mestre do AutoCAD com Certificado Reconhecido{" "}
+              Seja um Mestre da Arquitetura com Certificado Reconhecido{" "}
             </h2>
             <p className="text-lg text-[#fefefe]">
               <strong>Certificado incluso,</strong> emitido de forma online em

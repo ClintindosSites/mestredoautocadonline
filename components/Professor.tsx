@@ -33,7 +33,7 @@ export default function Professor() {
           <p className="text-2xl font-bold text-[#ffffff]">
             Conheça o professor que vai{" "}
             <span className="text-[#ff0f57]">
-              tranformar você em um Mestre do AutoCAD
+              tranformar você em um Mestre da Arquitetura
             </span>
           </p>
           <p className="text-[#ffffff] text-xl">
@@ -84,7 +84,9 @@ export default function Professor() {
           </p>
           <p className="text-[#ffffff] text-xl">
             É por isso que o{" "}
-            <span className="text-[#ff0f57] font-bold">Mestre do AutoCAD </span>{" "}
+            <span className="text-[#ff0f57] font-bold">
+              Mestre da Arquitetura{" "}
+            </span>{" "}
             representa mais do que simplesmente aprender onde ficam as
             ferramentas do programa: é uma formação para quem quer{" "}
             <span className="text-[#ff0f57] font-bold">
