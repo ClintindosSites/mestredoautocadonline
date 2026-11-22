@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: "%s | Mestre da Arquitetura",
   },
   description:
-    "Dicas, tutoriais e conteúdos para aprender AutoCAD e desenvolver suas habilidades em projetos.",
+    "Dicas, tutoriais e conteúdos para aprender ferramentas de engenharia e arquitetura e desenvolver suas habilidades em projetos.",
 };
 
 export default function BlogLayout({
